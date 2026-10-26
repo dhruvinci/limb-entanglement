@@ -1,0 +1,39 @@
+{
+  "transformers_version": "5.16.1",
+  "processor_class": "Qwen2VLImageProcessor",
+  "patch_size": 16,
+  "merge_size": 2,
+  "fixtures": [
+    {
+      "grid_hw": [
+        4,
+        6
+      ],
+      "corrected_mismatched_locations": 0,
+      "legacy_mismatched_locations": 16,
+      "total_locations": 24
+    },
+    {
+      "grid_hw": [
+        8,
+        4
+      ],
+      "corrected_mismatched_locations": 0,
+      "legacy_mismatched_locations": 16,
+      "total_locations": 32
+    },
+    {
+      "grid_hw": [
+        160,
+        90
+      ],
+      "corrected_mismatched_locations": 0,
+      "legacy_mismatched_locations": 14080,
+      "total_locations": 14400
+    }
+  ],
+  "processor_source_sha256": "4e1da45f9e7e157ca08aa88243fcc1495ea6a333e40e0c5035ef17ef2747a97d",
+  "model_source_sha256": "788d4bad50a8d39be2fe79125f0f40134773cd23b1791606fb6b3ab0bc6d2263",
+  "model_config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+  "conclusion": "Raw vision tokens use grouped spatial order. Direct reshape is not image order. Merged tokens require a separate contract; this fixture does not measure decoder-performance impact."
+}

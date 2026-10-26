@@ -1,0 +1,147 @@
+{
+ "campaign": "qwen-cache-retirement-20261013",
+ "status": "preparation",
+ "purpose": "Resolve spatial layout, layer quality, local actor binding, semantic utility and temporal recovery from the existing cache; preserve findings and retire cloud/local bulk features.",
+ "spend": {
+  "authorized_total_usd": 20,
+  "compute_stop_usd": 17.5,
+  "storage_and_billing_margin_usd": 2.5,
+  "replacement_pod": false,
+  "max_hours": 7.0281124498,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "hourly_ceiling_usd": 2.49,
+  "runtime_admission": "Benchmark real pipeline categories, estimate all mandatory jobs plus nine shortlisted jobs, add 30 percent and 20-minute export reserve. Refuse bulk work if the complete matrix exceeds remaining budget."
+ },
+ "volume": {
+  "cache_run": "20260827T074622Z"
+ },
+ "seeds": [
+  7,
+  71,
+  701
+ ],
+ "primary_layers": [
+  5,
+  11,
+  18,
+  26
+ ],
+ "all_vision_layers": 27,
+ "semantic_layers": [
+  12,
+  25,
+  45,
+  60
+ ],
+ "scope": {
+  "full_qwen_load": false,
+  "new_teacher_calls": false,
+  "heavy_compute_on_cloud_gpu_only": true,
+  "local_final_archive_target_gib": 2,
+  "local_final_archive_unpacked_ceiling_gib": 4,
+  "label_status": "Existing exploratory pseudo/AI-reviewed labels; unknown pixels ignored; no fresh independent confirmation claims.",
+  "source_holdout": "Four breadth clips are held out individually; shared venue and prior use limit generalization. Armbar splits are reused exploratory development.",
+  "identities": "Frame-zero reference supervision is explicitly assisted; reference frames excluded from scored outputs. Canonical semantic mapping follows saved actor audit."
+ },
+ "work_packages": [
+  {
+   "id": "A",
+   "name": "Layout/provenance audit",
+   "required": [
+    "exact grouped-patch coordinate fixture",
+    "raw versus corrected view",
+    "corrected repooling",
+    "cached artifact integrity",
+    "actor and invalid-answer audit"
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Layer and readout screen",
+   "required": [
+    "27 armbar full layers",
+    "27 breadth pooled layers with spatial-layout caveat",
+    "4 breadth corrected full layers",
+    "merged baseline",
+    "fixed linear probe",
+    "shortlist spatial decoder",
+    "matched train-only preprocessing"
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Local ownership",
+   "required": [
+    "geometry baseline",
+    "appearance baseline",
+    "shared region-to-actor scoring",
+    "neighbor connectivity",
+    "both-actor tests",
+    "spatial displacement and wrong-reference controls"
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Semantic adapter",
+   "required": [
+    "vision/appearance only",
+    "global semantic fusion",
+    "query-to-patch adapter",
+    "aligned real/wrong/random/mean/zero queries",
+    "localized corrections and harms",
+    "cached temporal/thinking substitutions"
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Temporal ownership",
+   "required": [
+    "static",
+    "persistence",
+    "timestamp interpolation",
+    "feature correspondence",
+    "learned causal adapter",
+    "learned offline adapter",
+    "hidden centers",
+    "corrupted ownership",
+    "ordered/reversed/shuffled",
+    "cut boundaries",
+    "no future-conditioned semantic states in causal tests"
+   ]
+  },
+  {
+   "id": "F",
+   "name": "Robustness and evidence limits",
+   "required": [
+    "training-size curve",
+    "contact-supervision ablation",
+    "capacity comparison",
+    "matched-coverage risk",
+    "per-clip and per-region results",
+    "all negative/failure results retained"
+   ]
+  },
+  {
+   "id": "G",
+   "name": "Archive and retirement",
+   "required": [
+    "compact export",
+    "local checksum and readable-artifact verification",
+    "compute termination",
+    "remote volume deletion",
+    "exact local bulk cache deletion",
+    "dependency audit",
+    "plain-text final user summary"
+   ]
+  }
+ ],
+ "advancement_gates": {
+  "contact_gain_absolute": 0.1,
+  "maximum_actor_iou_loss": 0.02,
+  "temporal_relative_error_reduction": 0.1,
+  "semantic": "Real queries must improve local ownership over matched nonsemantic controls; equivariance/sensitivity alone cannot pass.",
+  "interpretation": "Exploratory thresholds, not claims of independent accuracy; a complete negative campaign is success."
+ },
+ "selection": "Layer and hyperparameter selection uses development/training folds only. Do not select seeds or change prompts/labels after outputs. Test all mandatory packages; do not keep trying until a gate passes.",
+ "retirement": "After compact archive verification, delete the exact authorized network volume and downloaded Qwen layers; preserve original media, labels, experiment records, decoder checkpoints and unrelated caches. No indefinite retention."
+}

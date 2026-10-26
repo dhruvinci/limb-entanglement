@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Whose arm is it? Limb ownership between two entangled people: VLM probes, a tangle tracker and dot-assisted correction (largely negative results)"
+authors:
+  - family-names: Chakravarthi
+    given-names: Dhruva
+year: 2026
+date-released: "2026-10-26"
+repository-code: "https://github.com/dhruvinci/limb-entanglement"
+license: MIT
+keywords:
+  - instance segmentation
+  - human interaction
+  - vision-language models
+  - video object tracking
+  - negative results

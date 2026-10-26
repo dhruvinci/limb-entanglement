@@ -1,0 +1,1219 @@
+{
+  "aggregates": {
+    "action_delta_random_matched": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9414668782052416,
+          "population_std": 0.003112933038445203,
+          "values": [
+            0.938801261829653,
+            0.9458338905978334,
+            0.9397654821882384
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8894234757879952,
+          "population_std": 0.005567168680003245,
+          "values": [
+            0.8846611177170036,
+            0.8972342045166202,
+            0.8863751051303617
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9048662841935705,
+          "population_std": 0.0037569809277931622,
+          "values": [
+            0.9016812373907196,
+            0.9101417366175863,
+            0.9027758785724053
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8262825472895666,
+          "population_std": 0.006279545884904914,
+          "values": [
+            0.8209649767327946,
+            0.8351010101010101,
+            0.8227816550348953
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9825093785094742,
+          "population_std": 0.0007480732493253437,
+          "values": [
+            0.981744761176555,
+            0.9835248859047574,
+            0.98225848844711
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9978227203728975,
+          "population_std": 0.0002944033860054024,
+          "values": [
+            0.9974700624051274,
+            0.9981907112957881,
+            0.9978073874177771
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9895796834686656,
+          "population_std": 0.0002725362311163313,
+          "values": [
+            -0.9899456589310257,
+            -0.9892920034903067,
+            -0.9895013879846644
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.857853011538781,
+          "population_std": 0.005923314226509106,
+          "values": [
+            0.8528130472248991,
+            0.8661676073088151,
+            0.8545783800826285
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "slotcancel__final__action_delta__random_matched__l11_merged__l12__seed-7",
+        "slotcancel__final__action_delta__random_matched__l11_merged__l12__seed-71",
+        "slotcancel__final__action_delta__random_matched__l11_merged__l12__seed-701"
+      ]
+    },
+    "action_delta_real": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9433109094214719,
+          "population_std": 0.0018078582328480434,
+          "values": [
+            0.9409703504043126,
+            0.9435901980768379,
+            0.9453721797832653
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8927098516770867,
+          "population_std": 0.0032369250061583645,
+          "values": [
+            0.8885212522270298,
+            0.8932046979865772,
+            0.8964036048176535
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.905679522604823,
+          "population_std": 0.00235951787329006,
+          "values": [
+            0.9035326086956522,
+            0.9045407279029463,
+            0.9089652312158706
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8276266885195137,
+          "population_std": 0.0039458415069741435,
+          "values": [
+            0.8240396530359355,
+            0.825718263510948,
+            0.8331221490116574
+          ]
+        },
+        "accuracy": {
+          "mean": 0.982923546231472,
+          "population_std": 0.0005133412357911977,
+          "values": [
+            0.9822465413012831,
+            0.983035052925856,
+            0.9834890444672768
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982060442509084,
+          "population_std": 0.0001126737488822415,
+          "values": [
+            0.9980680476548245,
+            0.9983440408469925,
+            0.9982060442509085
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9871401610197844,
+          "population_std": 0.0034301930315956655,
+          "values": [
+            -0.9884930363407841,
+            -0.9824292924669054,
+            -0.9904981542516638
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8601682700983003,
+          "population_std": 0.0034988134958777385,
+          "values": [
+            0.8562804526314827,
+            0.8594614807487626,
+            0.8647628769146554
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "slotcancel__final__action_delta__real__l11_merged__l12__seed-7",
+        "slotcancel__final__action_delta__real__l11_merged__l12__seed-71",
+        "slotcancel__final__action_delta__real__l11_merged__l12__seed-701"
+      ]
+    },
+    "action_relational_random_matched": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9401323744049237,
+          "population_std": 0.002276672032733239,
+          "values": [
+            0.940380248452736,
+            0.9372283704467046,
+            0.9427885043153306
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8870368119379205,
+          "population_std": 0.004052094066996037,
+          "values": [
+            0.8874695352550634,
+            0.8818718381112984,
+            0.8917690624473994
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9018322380166129,
+          "population_std": 0.003692999839366734,
+          "values": [
+            0.9038262668045501,
+            0.8966548816970357,
+            0.9050155655482532
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8212359147962944,
+          "population_std": 0.006111184974399927,
+          "values": [
+            0.8245283018867925,
+            0.8126694601922603,
+            0.8265099823098306
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9819518450375538,
+          "population_std": 0.0007631432603631834,
+          "values": [
+            0.9824974313636472,
+            0.980872619531194,
+            0.9824854842178203
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9980169378044231,
+          "population_std": 0.0004741385646640518,
+          "values": [
+            0.9985127033533173,
+            0.9973780646744047,
+            0.9981600453855471
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9890283655237267,
+          "population_std": 0.0067268160847974625,
+          "values": [
+            -0.9967504430700231,
+            -0.989979002210829,
+            -0.9803556512903284
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8541363633671075,
+          "population_std": 0.00502124631501868,
+          "values": [
+            0.855998918570928,
+            0.8472706491517794,
+            0.859139522378615
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "slotcancel__final__action_relational__random_matched__l11_merged__l12__seed-7",
+        "slotcancel__final__action_relational__random_matched__l11_merged__l12__seed-71",
+        "slotcancel__final__action_relational__random_matched__l11_merged__l12__seed-701"
+      ]
+    },
+    "action_relational_real": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.938741546284889,
+          "population_std": 0.0038404263581093053,
+          "values": [
+            0.9337772179233399,
+            0.9431315613133795,
+            0.9393158596179476
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8845797300703797,
+          "population_std": 0.006814429525772895,
+          "values": [
+            0.8757805907172995,
+            0.8923831262152337,
+            0.8855754732786061
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.8995437094160073,
+          "population_std": 0.0063390497568696184,
+          "values": [
+            0.8922910174773065,
+            0.9077334063976985,
+            0.8986067043730169
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8174883164148681,
+          "population_std": 0.010482858087177567,
+          "values": [
+            0.8055283757338552,
+            0.831054809983695,
+            0.8158817635270541
+          ]
+        },
+        "accuracy": {
+          "mean": 0.981497853496133,
+          "population_std": 0.0010100972468106144,
+          "values": [
+            0.9802394208023704,
+            0.9827124799885307,
+            0.9815416596974983
+          ]
+        },
+        "background_stability": {
+          "mean": 0.997807387417777,
+          "population_std": 8.763513801952332e-05,
+          "values": [
+            0.9979300510587406,
+            0.9977613885524157,
+            0.9977307226421748
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9884790962125048,
+          "population_std": 0.010686066426926183,
+          "values": [
+            -0.9735634415237991,
+            -0.9938320583767362,
+            -0.9980417887369791
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.851034023242624,
+          "population_std": 0.008602251055690048,
+          "values": [
+            0.8406544832255773,
+            0.8617189680994644,
+            0.8507286184028301
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "slotcancel__final__action_relational__real__l11_merged__l12__seed-7",
+        "slotcancel__final__action_relational__real__l11_merged__l12__seed-71",
+        "slotcancel__final__action_relational__real__l11_merged__l12__seed-701"
+      ]
+    },
+    "contact_delta_random_matched": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9443171394674378,
+          "population_std": 0.00224150581241883,
+          "values": [
+            0.9465456832270236,
+            0.94125050568616,
+            0.9451552294891294
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8945168873113908,
+          "population_std": 0.004018249248313385,
+          "values": [
+            0.8985161180283131,
+            0.8890209730831281,
+            0.8960135708227311
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9081200115547534,
+          "population_std": 0.002950126851514259,
+          "values": [
+            0.9111397732672595,
+            0.9041170097508126,
+            0.9091032516461883
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8317164920654015,
+          "population_std": 0.00494290832823522,
+          "values": [
+            0.8367830423940149,
+            0.8250123578843302,
+            0.8333540759178594
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9831067358008173,
+          "population_std": 0.0004003036764754288,
+          "values": [
+            0.9836085159255454,
+            0.9826288499677427,
+            0.9830828415091635
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9977205006720945,
+          "population_std": 0.0004951592366144186,
+          "values": [
+            0.9979147181036201,
+            0.9982060442509085,
+            0.997040739661755
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9165412761546947,
+          "population_std": 0.1109233851027948,
+          "values": [
+            -0.99408608895761,
+            -0.995862466317636,
+            -0.7596752731888382
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8631166896883963,
+          "population_std": 0.004480078115608534,
+          "values": [
+            0.867649580211164,
+            0.8570166654837292,
+            0.8646838233702953
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "slotcancel__final__contact_delta__random_matched__l11_merged__l45__seed-7",
+        "slotcancel__final__contact_delta__random_matched__l11_merged__l45__seed-71",
+        "slotcancel__final__contact_delta__random_matched__l11_merged__l45__seed-701"
+      ]
+    },
+    "contact_delta_real": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9433002150187777,
+          "population_std": 0.004237781176268935,
+          "values": [
+            0.9478799768157297,
+            0.9376625706341376,
+            0.9443580976064656
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8927155559258432,
+          "population_std": 0.007579691417679051,
+          "values": [
+            0.9009238071022968,
+            0.8826409996622763,
+            0.8945818610129564
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.904022203168681,
+          "population_std": 0.007726912391780708,
+          "values": [
+            0.9102922144268102,
+            0.8931365213250799,
+            0.9086378737541528
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8249447629720793,
+          "population_std": 0.012804693466736667,
+          "values": [
+            0.8353544193024128,
+            0.8069075712881023,
+            0.832572298325723
+          ]
+        },
+        "accuracy": {
+          "mean": 0.982437695634513,
+          "population_std": 0.0013866926122240617,
+          "values": [
+            0.9834890444672768,
+            0.9804783637189075,
+            0.9833456787173545
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9975007283153682,
+          "population_std": 0.0006491957022442918,
+          "values": [
+            0.9967647464695871,
+            0.9973933976295252,
+            0.9983440408469925
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9822065565321182,
+          "population_std": 0.012608023168769534,
+          "values": [
+            -0.9652587749339916,
+            -0.9858822292751737,
+            -0.995478665387189
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8588301594489612,
+          "population_std": 0.010111997243011525,
+          "values": [
+            0.8681391132023548,
+            0.8447742854751893,
+            0.8635770796693397
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "slotcancel__final__contact_delta__real__l11_merged__l45__seed-7",
+        "slotcancel__final__contact_delta__real__l11_merged__l45__seed-71",
+        "slotcancel__final__contact_delta__real__l11_merged__l45__seed-701"
+      ]
+    },
+    "contact_ownership_random_matched": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9412824688009479,
+          "population_std": 0.0031273421496381738,
+          "values": [
+            0.945300801550251,
+            0.9408733508062724,
+            0.9376732540463203
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8890944962194545,
+          "population_std": 0.0055834230872800405,
+          "values": [
+            0.896275263069985,
+            0.8883482929284456,
+            0.8826599326599327
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.902050036509047,
+          "population_std": 0.002944881522374008,
+          "values": [
+            0.9061781709270739,
+            0.9004628030669337,
+            0.8995091355331334
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8215897625772133,
+          "population_std": 0.00489436363123537,
+          "values": [
+            0.8284513499745287,
+            0.8189471039075261,
+            0.817370833849585
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9822186646276871,
+          "population_std": 0.0007494288393141434,
+          "values": [
+            0.9832381544049127,
+            0.9819598098014385,
+            0.9814580296767103
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9977307226421748,
+          "population_std": 0.00014437967352894877,
+          "values": [
+            0.9975927260460908,
+            0.9979300510587406,
+            0.997669390821693
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9895001635139371,
+          "population_std": 0.00826428717075902,
+          "values": [
+            -0.9778674796775535,
+            -0.9962953638147425,
+            -0.9943376470495153
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8553421293983338,
+          "population_std": 0.0051814492512795105,
+          "values": [
+            0.8623633065222569,
+            0.8536476984179859,
+            0.8500153832547588
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "slotcancel__final__contact_ownership__random_matched__l11_merged__l45__seed-7",
+        "slotcancel__final__contact_ownership__random_matched__l11_merged__l45__seed-71",
+        "slotcancel__final__contact_ownership__random_matched__l11_merged__l45__seed-701"
+      ]
+    },
+    "contact_ownership_real": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9414651708709649,
+          "population_std": 0.0038048639970166306,
+          "values": [
+            0.9445047981169654,
+            0.9361001024179543,
+            0.9437906120779752
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8894284078708673,
+          "population_std": 0.006774718230811442,
+          "values": [
+            0.8948451839780427,
+            0.8798761091578771,
+            0.8935639304766821
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9070423899407407,
+          "population_std": 0.007377832844173519,
+          "values": [
+            0.9116360454943132,
+            0.8966324633289718,
+            0.9128586609989373
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8299801344792019,
+          "population_std": 0.012295518300817694,
+          "values": [
+            0.837620578778135,
+            0.8126326301335663,
+            0.8396871945259042
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9825531847108393,
+          "population_std": 0.0013079199696971863,
+          "values": [
+            0.9834054144464888,
+            0.9807053594896179,
+            0.9835487801964111
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9978738302232989,
+          "population_std": 0.0002893918984118921,
+          "values": [
+            0.9982827090265107,
+            0.9976540578665726,
+            0.9976847237768135
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.037037037037037035,
+          "population_std": 0.05237828008789241,
+          "values": [
+            0.0,
+            0.0,
+            0.1111111111111111
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.860903845893012,
+          "population_std": 0.17245782555401606,
+          "values": [
+            -0.9791117774115669,
+            -0.9865502957944516,
+            -0.6170494644730179
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8597042711750346,
+          "population_std": 0.009511867604114018,
+          "values": [
+            0.8662328813780888,
+            0.8462543696457216,
+            0.8666255625012932
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.037037037037037035,
+          "population_std": 0.05237828008789241,
+          "values": [
+            0.0,
+            0.0,
+            0.1111111111111111
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "slotcancel__final__contact_ownership__real__l11_merged__l45__seed-7",
+        "slotcancel__final__contact_ownership__real__l11_merged__l45__seed-71",
+        "slotcancel__final__contact_ownership__real__l11_merged__l45__seed-701"
+      ]
+    }
+  },
+  "campaign_spec_sha256": "5792918ed8cb70e0e6bdb7e55590f45129d69cc76e847f95ba4ca5e7d1a4887d",
+  "fixed_language_layers": {
+    "action": 12,
+    "contact": 45
+  },
+  "format": "armbar-slot-cancellation-campaign-result-v1",
+  "layer_selection_audit_sha256": "7001b12786324c92422eac5b9f370bba30dedd8738526c5d9f72c8d866ed583f",
+  "limitations": [
+    "single source video",
+    "legacy conservative pseudo-labels rather than fully human-reviewed masks",
+    "contact ownership truth exists only in the final held-out contact frame",
+    "condition-delta actor states remain constant across every frame in the clip"
+  ],
+  "north_star_eligible": false,
+  "paired_deltas": {
+    "action_delta_minus_random_iou": [
+      0.0034674054065835236,
+      -0.006706126560052539,
+      0.010184496832026824
+    ],
+    "action_delta_minus_raw_contact_margin": [
+      -0.01492959481698497,
+      0.011402765909830803,
+      0.007543634485315365
+    ],
+    "action_delta_minus_raw_iou": [
+      0.015625969405905327,
+      -0.002257487350701748,
+      0.01403425851182527
+    ],
+    "contact_delta_minus_random_iou": [
+      0.0004895329911908108,
+      -0.012242380008539944,
+      -0.001106743700955537
+    ],
+    "contact_delta_minus_raw_contact_margin": [
+      0.01385300247757526,
+      0.0006680665192779767,
+      -0.3784292009141711
+    ],
+    "contact_delta_minus_raw_iou": [
+      0.0019062318242659693,
+      -0.0014800841705323586,
+      -0.0030484828319534696
+    ]
+  },
+  "reference_campaign_result_sha256": "f68727ced2434a104fb35fb28436333bea79794907928ca3abdd903c8b129445",
+  "reference_static": {
+    "metrics": {
+      "a1_dice": {
+        "mean": 0.9485905683615687,
+        "population_std": 0.003346364632553949,
+        "values": [
+          0.9444961240310078,
+          0.9485825828490306,
+          0.9526929982046679
+        ]
+      },
+      "a1_iou": {
+        "mean": 0.9022278096852688,
+        "population_std": 0.006054414726649032,
+        "values": [
+          0.8948296122209166,
+          0.9021940928270042,
+          0.9096597240078855
+        ]
+      },
+      "a2_dice": {
+        "mean": 0.9171307823011102,
+        "population_std": 0.004703305283194695,
+        "values": [
+          0.911994469408918,
+          0.9160389745007256,
+          0.9233589029936868
+        ]
+      },
+      "a2_iou": {
+        "mean": 0.8469799983012748,
+        "population_std": 0.008033925370178231,
+        "values": [
+          0.8382259499301055,
+          0.8450847889838072,
+          0.8576292559899117
+        ]
+      },
+      "accuracy": {
+        "mean": 0.9848589838554235,
+        "population_std": 0.000775512008262199,
+        "values": [
+          0.9839071945712169,
+          0.9848629662373659,
+          0.985806790757688
+        ]
+      },
+      "background_stability": {
+        "mean": 0.9982469321312296,
+        "population_std": 0.0001235125344209114,
+        "values": [
+          0.9981447124304267,
+          0.9984207056225947,
+          0.9981753783406676
+        ]
+      },
+      "contact_accuracy": {
+        "mean": 0.09876543209876543,
+        "population_std": 0.1396754135677131,
+        "values": [
+          0.0,
+          0.2962962962962963,
+          0.0
+        ]
+      },
+      "contact_margin": {
+        "mean": -0.7882001429428289,
+        "population_std": 0.1764216758347595,
+        "values": [
+          -0.8332162079987703,
+          -0.5531666367142288,
+          -0.9782175841154875
+        ]
+      },
+      "contact_pixel_count": {
+        "mean": 27.0,
+        "population_std": 0.0,
+        "values": [
+          27.0,
+          27.0,
+          27.0
+        ]
+      },
+      "contact_region_count": {
+        "mean": 3.0,
+        "population_std": 0.0,
+        "values": [
+          3.0,
+          3.0,
+          3.0
+        ]
+      },
+      "macro_actor_iou": {
+        "mean": 0.8746039039932718,
+        "population_std": 0.007021067007128708,
+        "values": [
+          0.866527781075511,
+          0.8736394409054058,
+          0.8836444899988987
+        ]
+      },
+      "positive_contact_margin_fraction": {
+        "mean": 0.09876543209876543,
+        "population_std": 0.1396754135677131,
+        "values": [
+          0.0,
+          0.2962962962962963,
+          0.0
+        ]
+      },
+      "positive_contact_region_fraction": {
+        "mean": 0.1111111111111111,
+        "population_std": 0.15713484026367722,
+        "values": [
+          0.0,
+          0.3333333333333333,
+          0.0
+        ]
+      }
+    },
+    "run_count": 3,
+    "run_names": [
+      "final__static__l11_merged__seed-7",
+      "final__static__l11_merged__seed-71",
+      "final__static__l11_merged__seed-701"
+    ]
+  },
+  "selected_static_arm": "l11_merged",
+  "slot_cancellation_signal": {
+    "evidence": {
+      "action_delta_background_stability": 0.9982060442509084,
+      "action_delta_minus_random_iou": 0.0023152585595192696,
+      "action_delta_minus_raw_contact_margin": 0.0013389351927203992,
+      "action_delta_minus_raw_iou": 0.009134246855676284,
+      "contact_delta_background_stability": 0.9975007283153682,
+      "contact_delta_minus_random_iou": -0.00428653023943489,
+      "contact_delta_minus_raw_contact_margin": -0.12130271063910596,
+      "contact_delta_minus_raw_iou": -0.0008741117260732864
+    },
+    "gates": {
+      "action_contact_margin_improves": false,
+      "action_delta_beats_random": false,
+      "action_delta_beats_raw": false,
+      "background_stable": true,
+      "contact_contact_margin_improves": false,
+      "contact_delta_beats_random": false,
+      "contact_delta_beats_raw": false
+    },
+    "interpretation": "exploratory single-clip slot-cancellation result; not a multi-clip north-star result",
+    "passed": false
+  },
+  "supervision_status": "exploratory_legacy_pseudo_labels"
+}

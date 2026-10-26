@@ -1,0 +1,75 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Mask Fix A/B</title>
+<style>
+:root{--bg:#111;--fg:#eee;--mut:#999;--acc:#4caf50;--btn:#2a2a2a}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px system-ui,sans-serif}
+header{display:flex;gap:16px;align-items:center;padding:8px 16px;border-bottom:1px solid #333}
+header b{font-size:15px} .mut{color:var(--mut)}
+main{padding:12px 16px;max-width:1800px;margin:auto}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+figure{margin:0;flex:1 1 30%;min-width:260px} figure img{width:100%;border-radius:4px;display:block}
+body.big figure{flex-basis:100%}
+.pic{position:relative;touch-action:manipulation} .pic.tool{cursor:crosshair}
+.dot{position:absolute;width:12px;height:12px;margin:-8px 0 0 -8px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1.5px #000;pointer-events:none}
+.dot.red{background:#ff2020} .dot.blue{background:#2060ff} .dot.none{background:#111;border-color:#ff0}
+button.t-red.on{background:#ff2020;border-color:#ff2020;color:#fff} button.t-blue.on{background:#2060ff;border-color:#2060ff;color:#fff}
+button.t-none.on{background:#ff0;border-color:#ff0;color:#000}
+figcaption{font-weight:600;margin:4px 0}
+.q{margin:12px 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{background:var(--btn);color:var(--fg);border:1px solid #444;border-radius:4px;padding:8px 14px;font-size:14px;cursor:pointer}
+button.on{background:var(--acc);border-color:var(--acc);color:#000}
+textarea{width:100%;min-height:60px;background:#1b1b1b;color:var(--fg);border:1px solid #444;border-radius:4px;padding:6px;font:inherit;box-sizing:border-box}
+.saved{color:var(--acc);font-size:12px}
+</style></head><body>
+<header><b>Blind A/B</b><a id="vid" href="videos.html" style="color:#8cf;display:none">▶ Tangle videos</a><span id="pos" class="mut"></span><span class="mut">Red = <span id="red"></span>, Blue = <span id="blue"></span></span>
+<span class="mut">keys: 1 A better · 2 B better · 3 same · 4 both bad · ←/→ navigate · r/b/n dot tool · u undo dot · f big images</span><span id="saved" class="saved"></span></header>
+<main>
+<p class="mut">Which overlay masks the two highlighted fighters better (red and blue each covering exactly their own person)? One side is the original mask, the other the fix; order is random.</p>
+<div class="q" id="tools"><span class="mut">Dots (optional, any image; they mark the truth, not A or B):</span>
+<button class="t-red" data-t="red">r Should be red</button><button class="t-blue" data-t="blue">b Should be blue</button>
+<button class="t-none" data-t="none">n Neither (background / no one)</button><button onclick="undo()">u Undo dot</button>
+<button onclick="document.body.classList.toggle('big')">f Big images</button><span id="ndots" class="mut"></span></div>
+<p class="mut" style="margin:4px 0">Click to place a dot of the chosen tool; click an existing dot to remove it. Mark wrong or missed pixels — e.g. a foot shown blue that belongs to red, a red limb left unmasked, or mask spilling onto the mat. A few dots on the worst spots are plenty.</p>
+<div class="row"><figure><figcaption>Frame</figcaption><div class="pic"><img id="raw"></div></figure><figure><figcaption>A</figcaption><div class="pic"><img id="A"></div></figure><figure><figcaption>B</figcaption><div class="pic"><img id="B"></div></figure></div>
+<div class="q" id="btns"></div>
+<textarea id="note" placeholder="Notes (autosaved) — what's wrong or better, which fighter, which limb"></textarea>
+<div class="q"><button onclick="go(cur-1)">← Prev</button><button onclick="go(cur+1)">Next →</button><span id="done" class="mut"></span></div>
+</main>
+<script>
+const CH=[['A','A better'],['B','B better'],['same','Same'],['both_bad','Both bad']];
+let items=[],V={},cur=0,timer=null,tool=null;
+const $=id=>document.getElementById(id);
+function post(rec,beacon){const b=JSON.stringify(rec);if(beacon&&navigator.sendBeacon)return navigator.sendBeacon('/verdict',new Blob([b],{type:'application/json'}));
+  return fetch('/verdict',{method:'POST',headers:{'Content-Type':'application/json'},body:b}).then(()=>{$('saved').textContent='saved '+new Date().toLocaleTimeString()})}
+function rec(){const it=items[cur],o=V[it.id]||{};return {id:it.id,verdict:o.verdict||null,note:$('note').value,dots:o.dots||[]}}
+function dots(){const it=items[cur];return (V[it.id]||{}).dots||[]}
+function setDots(d){const it=items[cur];V[it.id]={...(V[it.id]||{}),...rec(),dots:d};post(V[it.id]);drawDots()}
+function undo(){const d=dots();if(d.length)setDots(d.slice(0,-1))}
+function setTool(t){tool=tool===t?null:t;document.querySelectorAll('#tools button[data-t]').forEach(b=>b.classList.toggle('on',b.dataset.t===tool));
+  document.querySelectorAll('.pic').forEach(p=>p.classList.toggle('tool',!!tool))}
+function drawDots(){const d=dots();document.querySelectorAll('.pic').forEach(p=>{p.querySelectorAll('.dot').forEach(x=>x.remove());
+  d.forEach(o=>{const e=document.createElement('span');e.className='dot '+o.c;e.style.left=(o.x*100)+'%';e.style.top=(o.y*100)+'%';p.appendChild(e)})});
+  const n={red:0,blue:0,none:0};d.forEach(o=>n[o.c]++);$('ndots').textContent=d.length?`${n.red} red · ${n.blue} blue · ${n.none} neither`:''}
+document.querySelectorAll('#tools button[data-t]').forEach(b=>b.onclick=()=>setTool(b.dataset.t));
+document.querySelectorAll('.pic').forEach(p=>p.addEventListener('click',e=>{const r=p.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height,d=dots();
+  const hit=d.findIndex(o=>Math.hypot((o.x-x)*r.width,(o.y-y)*r.height)<10);
+  if(hit>=0)return setDots(d.filter((_,i)=>i!==hit));if(!tool)return;
+  setDots([...d,{x:+x.toFixed(4),y:+y.toFixed(4),c:tool}])}));
+function saveNote(beacon){if(!items.length)return;const r=rec(),old=V[r.id]||{};if((old.note||'')===r.note)return;V[r.id]={...old,...r};post(V[r.id],beacon)}
+function pick(v){const it=items[cur];V[it.id]={...rec(),verdict:v};post(V[it.id]);render();setTimeout(()=>go(cur+1),250)}
+function go(n){saveNote();if(n<0||n>=items.length)return;cur=n;location.hash=items[cur].id;render()}
+function render(){const it=items[cur],v=V[it.id]||{};$('pos').textContent=`${cur+1} / ${items.length}`;
+  ['raw','A','B'].forEach(k=>$(k).src=it[k]);$('red').textContent=it.red;$('blue').textContent=it.blue||'-';
+  $('btns').innerHTML='';CH.forEach(([k,l],i)=>{const b=document.createElement('button');b.textContent=`${i+1} ${l}`;if(v.verdict===k)b.className='on';b.onclick=()=>pick(k);$('btns').appendChild(b)});
+  $('note').value=v.note||'';drawDots();$('done').textContent=`${Object.values(V).filter(x=>x.verdict).length} answered`}
+$('note').oninput=()=>{clearTimeout(timer);timer=setTimeout(()=>saveNote(),800)};
+$('note').onblur=()=>saveNote();
+addEventListener('pagehide',()=>saveNote(true));
+addEventListener('keydown',e=>{if(e.target.tagName==='TEXTAREA')return;if(e.key>='1'&&e.key<='4')pick(CH[+e.key-1][0]);
+  if(e.key==='r')setTool('red');if(e.key==='b')setTool('blue');if(e.key==='n')setTool('none');if(e.key==='u')undo();
+  if(e.key==='f')document.body.classList.toggle('big');
+  if(e.key==='ArrowRight')go(cur+1);if(e.key==='ArrowLeft')go(cur-1)});
+fetch('videos.json').then(r=>{if(r.ok)$('vid').style.display='inline'});
+Promise.all([fetch('items.json').then(r=>r.json()),fetch('/verdicts').then(r=>r.json())]).then(([i,v])=>{items=i;V=v;
+  const h=+location.hash.slice(1);const k=items.findIndex(x=>x.id===h);cur=k>=0?k:Math.max(0,items.findIndex(x=>!(V[x.id]||{}).verdict));render()});
+</script></body></html>

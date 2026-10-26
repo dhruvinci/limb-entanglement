@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.npz
+*.npy
+*.pt
+*.ckpt
+*.safetensors
+*.mp4
+benchmarks/
+outputs/
+data/raw/
+.venv*/
+.hf/

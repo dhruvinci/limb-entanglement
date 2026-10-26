@@ -1,0 +1,2221 @@
+{
+  "action_layer_screen": {
+    "25": {
+      "a1_dice": 0.9624793636500075,
+      "a1_iou": 0.9276725010849125,
+      "a2_dice": 0.891044776119403,
+      "a2_iou": 0.8034993270524899,
+      "accuracy": 0.9795577805590321,
+      "background_stability": 0.9952305246422893,
+      "contact_accuracy": 0.0,
+      "contact_margin": 0.0,
+      "contact_pixel_count": 0.0,
+      "contact_region_count": 0.0,
+      "macro_actor_iou": 0.8655859140687012,
+      "positive_contact_margin_fraction": 0.0,
+      "positive_contact_region_fraction": 0.0
+    },
+    "60": {
+      "a1_dice": 0.9636968688549388,
+      "a1_iou": 0.9299372354400818,
+      "a2_dice": 0.8866909090909091,
+      "a2_iou": 0.7964463025868826,
+      "accuracy": 0.978619107217355,
+      "background_stability": 0.9932167461579227,
+      "contact_accuracy": 0.0,
+      "contact_margin": 0.0,
+      "contact_pixel_count": 0.0,
+      "contact_region_count": 0.0,
+      "macro_actor_iou": 0.8631917690134823,
+      "positive_contact_margin_fraction": 0.0,
+      "positive_contact_region_fraction": 0.0
+    }
+  },
+  "campaign_spec_sha256": "92981283cade73068bd2a827680b2610f40b8a30ea96ca7850c9df28c410887b",
+  "exploratory_signal": {
+    "evidence": {
+      "action_background_stability": 0.9982724870564303,
+      "action_over_random_macro_iou": 0.009667967994206217,
+      "action_over_static_contact_margin": -0.19072162957839023,
+      "action_over_static_macro_iou": -0.008327309667146232,
+      "ordered_over_best_temporal_null_macro_iou": -0.00023033334596433974
+    },
+    "gates": {
+      "action_beats_random": false,
+      "action_beats_static": false,
+      "background_stable": true,
+      "contact_margin_improves": false,
+      "ordered_beats_temporal_nulls": false
+    },
+    "interpretation": "exploratory single-clip signal only; not a multi-clip decoder north-star result",
+    "passed": false
+  },
+  "final_aggregates": {
+    "action_mean": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.31789173361363465,
+          "population_std": 0.0,
+          "values": [
+            0.31789173361363465
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.18898410998036064,
+          "population_std": 0.0,
+          "values": [
+            0.18898410998036064
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "accuracy": {
+          "mean": 0.5392822154787221,
+          "population_std": 0.0,
+          "values": [
+            0.5392822154787221
+          ]
+        },
+        "background_stability": {
+          "mean": 0.5622747972216685,
+          "population_std": 0.0,
+          "values": [
+            0.5622747972216685
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.09449205499018032,
+          "population_std": 0.0,
+          "values": [
+            0.09449205499018032
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        }
+      },
+      "run_count": 1,
+      "run_names": [
+        "final__action_relational__mean__l11_merged__l25__seed-7"
+      ]
+    },
+    "action_random_matched": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9408257517393475,
+          "population_std": 0.002459186700483136,
+          "values": [
+            0.9391943361562934,
+            0.9443013958530966,
+            0.9389815232086526
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8882736267878375,
+          "population_std": 0.0043913557209672195,
+          "values": [
+            0.8853594660809326,
+            0.8944801026957638,
+            0.8849813115868161
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9040495804768264,
+          "population_std": 0.0053455444598131405,
+          "values": [
+            0.9012202604131161,
+            0.9115353589674644,
+            0.8993931220498989
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8249436258760011,
+          "population_std": 0.0089293863720668,
+          "values": [
+            0.8202010174959672,
+            0.8374505928853755,
+            0.8171792672466609
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9821947703360334,
+          "population_std": 0.0009052717135130003,
+          "values": [
+            0.9816969725932475,
+            0.9834651501756231,
+            0.9814221882392297
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9977971654476967,
+          "population_std": 0.00017043430084824827,
+          "values": [
+            0.9978687192382588,
+            0.9979607169689815,
+            0.99756206013585
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9707688696590471,
+          "population_std": 0.010106061602345,
+          "values": [
+            -0.9759099041974103,
+            -0.9797472070764612,
+            -0.9566494977032697
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8566086263319194,
+          "population_std": 0.006652500124394186,
+          "values": [
+            0.8527802417884499,
+            0.8659653477905697,
+            0.8510802894167385
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__random_matched__l11_merged__l25__seed-7",
+        "final__action_relational__random_matched__l11_merged__l25__seed-71",
+        "final__action_relational__random_matched__l11_merged__l25__seed-701"
+      ]
+    },
+    "action_real": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9449496977778459,
+          "population_std": 0.0032038661740857095,
+          "values": [
+            0.9471654108360243,
+            0.940419108506482,
+            0.9472645739910314
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8956616566085754,
+          "population_std": 0.00574422116526568,
+          "values": [
+            0.8996336372156428,
+            0.8875387580658678,
+            0.8998125745442154
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9111724716098979,
+          "population_std": 0.005877663223715215,
+          "values": [
+            0.9158942202835333,
+            0.9028871391076115,
+            0.9147360554385489
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8368915320436755,
+          "population_std": 0.009879228871581297,
+          "values": [
+            0.8448384257512889,
+            0.8229665071770335,
+            0.8428696632027044
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9837200226199294,
+          "population_std": 0.0008305534183160095,
+          "values": [
+            0.9844448161334257,
+            0.9825571670927815,
+            0.984158084633581
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982724870564303,
+          "population_std": 0.0002674369013519084,
+          "values": [
+            0.9985127033533173,
+            0.9984053726674742,
+            0.9978993851484996
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9789217725212191,
+          "population_std": 0.014227685928357239,
+          "values": [
+            -0.993955894752785,
+            -0.9598236083984375,
+            -0.9829858144124349
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8662765943261256,
+          "population_std": 0.007803675027168893,
+          "values": [
+            0.8722360314834658,
+            0.8552526326214507,
+            0.8713411188734599
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    },
+    "action_zero": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.23651025340384293,
+          "population_std": 0.0,
+          "values": [
+            0.23651025340384293
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.13411490135417514,
+          "population_std": 0.0,
+          "values": [
+            0.13411490135417514
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "accuracy": {
+          "mean": 0.22848916393873503,
+          "population_std": 0.0,
+          "values": [
+            0.22848916393873503
+          ]
+        },
+        "background_stability": {
+          "mean": 0.1416918382679894,
+          "population_std": 0.0,
+          "values": [
+            0.1416918382679894
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.06705745067708757,
+          "population_std": 0.0,
+          "values": [
+            0.06705745067708757
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        }
+      },
+      "run_count": 1,
+      "run_names": [
+        "final__action_relational__zero__l11_merged__l25__seed-7"
+      ]
+    },
+    "contact_real": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9368810186664233,
+          "population_std": 0.0,
+          "values": [
+            0.9368810186664233
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8812569760453336,
+          "population_std": 0.0,
+          "values": [
+            0.8812569760453336
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9013372363781518,
+          "population_std": 0.0,
+          "values": [
+            0.9013372363781518
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8203948165193169,
+          "population_std": 0.0,
+          "values": [
+            0.8203948165193169
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9810040381352895,
+          "population_std": 0.0,
+          "values": [
+            0.9810040381352895
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9977767215075362,
+          "population_std": 0.0,
+          "values": [
+            0.9977767215075362
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.2222222222222222,
+          "population_std": 0.0,
+          "values": [
+            0.2222222222222222
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.6106718557852285,
+          "population_std": 0.0,
+          "values": [
+            -0.6106718557852285
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8508258962823252,
+          "population_std": 0.0,
+          "values": [
+            0.8508258962823252
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.2222222222222222,
+          "population_std": 0.0,
+          "values": [
+            0.2222222222222222
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.3333333333333333,
+          "population_std": 0.0,
+          "values": [
+            0.3333333333333333
+          ]
+        }
+      },
+      "run_count": 1,
+      "run_names": [
+        "final__contact_ownership__real__l11_merged__l25__seed-7"
+      ]
+    },
+    "identity_real": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9404504504504505,
+          "population_std": 0.0,
+          "values": [
+            0.9404504504504505
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8875945922965734,
+          "population_std": 0.0,
+          "values": [
+            0.8875945922965734
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9061252115059222,
+          "population_std": 0.0,
+          "values": [
+            0.9061252115059222
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8283628263828734,
+          "population_std": 0.0,
+          "values": [
+            0.8283628263828734
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9824854842178203,
+          "population_std": 0.0,
+          "values": [
+            0.9824854842178203
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982213772060289,
+          "population_std": 0.0,
+          "values": [
+            0.9982213772060289
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9940209565339265,
+          "population_std": 0.0,
+          "values": [
+            -0.9940209565339265
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8579787093397234,
+          "population_std": 0.0,
+          "values": [
+            0.8579787093397234
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0
+          ]
+        }
+      },
+      "run_count": 1,
+      "run_names": [
+        "final__identity_only__real__l11_merged__l25__seed-7"
+      ]
+    },
+    "static": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9485905683615687,
+          "population_std": 0.003346364632553949,
+          "values": [
+            0.9444961240310078,
+            0.9485825828490306,
+            0.9526929982046679
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.9022278096852688,
+          "population_std": 0.006054414726649032,
+          "values": [
+            0.8948296122209166,
+            0.9021940928270042,
+            0.9096597240078855
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9171307823011102,
+          "population_std": 0.004703305283194695,
+          "values": [
+            0.911994469408918,
+            0.9160389745007256,
+            0.9233589029936868
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8469799983012748,
+          "population_std": 0.008033925370178231,
+          "values": [
+            0.8382259499301055,
+            0.8450847889838072,
+            0.8576292559899117
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9848589838554235,
+          "population_std": 0.000775512008262199,
+          "values": [
+            0.9839071945712169,
+            0.9848629662373659,
+            0.985806790757688
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982469321312296,
+          "population_std": 0.0001235125344209114,
+          "values": [
+            0.9981447124304267,
+            0.9984207056225947,
+            0.9981753783406676
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.09876543209876543,
+          "population_std": 0.1396754135677131,
+          "values": [
+            0.0,
+            0.2962962962962963,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.7882001429428289,
+          "population_std": 0.1764216758347595,
+          "values": [
+            -0.8332162079987703,
+            -0.5531666367142288,
+            -0.9782175841154875
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8746039039932718,
+          "population_std": 0.007021067007128708,
+          "values": [
+            0.866527781075511,
+            0.8736394409054058,
+            0.8836444899988987
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.09876543209876543,
+          "population_std": 0.1396754135677131,
+          "values": [
+            0.0,
+            0.2962962962962963,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.1111111111111111,
+          "population_std": 0.15713484026367722,
+          "values": [
+            0.0,
+            0.3333333333333333,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__static__l11_merged__seed-7",
+        "final__static__l11_merged__seed-71",
+        "final__static__l11_merged__seed-701"
+      ]
+    }
+  },
+  "fixed_substitution_aggregates": {
+    "action_2fps_remapped": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.03322182379376661,
+          "population_std": 0.0007036765932431637,
+          "values": [
+            0.03421651946897739,
+            0.03269846620596663,
+            0.03275048570635582
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.016891625235247412,
+          "population_std": 0.0003639165704963191,
+          "values": [
+            0.017406046905905623,
+            0.016620973269362578,
+            0.01664785553047404
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.0916543711237912,
+          "population_std": 0.009055927929222558,
+          "values": [
+            0.08497627833421191,
+            0.10445740470735264,
+            0.08552943032980906
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.04805186243795606,
+          "population_std": 0.004990159021616589,
+          "values": [
+            0.04437348601629597,
+            0.055106862260315366,
+            0.04467523903725684
+          ]
+        },
+        "accuracy": {
+          "mean": 0.7918050544391612,
+          "population_std": 0.0011432002926776933,
+          "values": [
+            0.7913072566963752,
+            0.7933860600702493,
+            0.790721846550859
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982315991761093,
+          "population_std": 0.0002915502271209762,
+          "values": [
+            0.9984820374430764,
+            0.9983900397123537,
+            0.9978227203728974
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 1.0,
+          "population_std": 0.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "contact_margin": {
+          "mean": 0.9817830544930918,
+          "population_std": 0.013511729910012935,
+          "values": [
+            0.9946219126383463,
+            0.9631070737485532,
+            0.9876201770923756
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.03247174383660174,
+          "population_std": 0.00240043801111017,
+          "values": [
+            0.030889766461100795,
+            0.03586391776483897,
+            0.030661547283865442
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 1.0,
+          "population_std": 0.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 1.0,
+          "population_std": 0.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    },
+    "action_8fps_off": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9449403156477804,
+          "population_std": 0.003231304779312271,
+          "values": [
+            0.9473259514950464,
+            0.9403720641122408,
+            0.9471229313360542
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8956450989202906,
+          "population_std": 0.00579323592570062,
+          "values": [
+            0.8999233455412656,
+            0.8874549568423699,
+            0.8995569943772364
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9111859434544981,
+          "population_std": 0.0059432902429769775,
+          "values": [
+            0.916109671259037,
+            0.9028247807169003,
+            0.9146233783875569
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8369154602477268,
+          "population_std": 0.009990063027311888,
+          "values": [
+            0.8452051346589479,
+            0.8228628981493139,
+            0.8426783479349187
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9837200226199294,
+          "population_std": 0.0008426667492789717,
+          "values": [
+            0.9844806575709063,
+            0.9825452199469547,
+            0.9841341903419273
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982673760713903,
+          "population_std": 0.0002629054140585376,
+          "values": [
+            0.9984973703981969,
+            0.9984053726674742,
+            0.9978993851484996
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9788464204764661,
+          "population_std": 0.01420091229292524,
+          "values": [
+            -0.9942988642939815,
+            -0.9600109524197049,
+            -0.9822294447157118
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8662802795840087,
+          "population_std": 0.00788612683257493,
+          "values": [
+            0.8725642401001068,
+            0.8551589274958419,
+            0.8711176711560775
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    },
+    "action_five_frame_remapped": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.033397914023571916,
+          "population_std": 0.00042480597152318194,
+          "values": [
+            0.033779654425245845,
+            0.032805302774969104,
+            0.033608784870500806
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.016982595294667554,
+          "population_std": 0.00021964901923390216,
+          "values": [
+            0.01717999434868607,
+            0.016676185037121646,
+            0.017091606498194946
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.0912296917629908,
+          "population_std": 0.009078849654583488,
+          "values": [
+            0.0849628419332736,
+            0.1040679202041773,
+            0.08465831315152153
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.04781879275324791,
+          "population_std": 0.005000635796978795,
+          "values": [
+            0.044366158419111575,
+            0.05489010989010989,
+            0.044200109950522266
+          ]
+        },
+        "accuracy": {
+          "mean": 0.7917771777655651,
+          "population_std": 0.0011429921820381517,
+          "values": [
+            0.7912594681130678,
+            0.7933621657785955,
+            0.7907098994050321
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982367101611493,
+          "population_std": 0.0002944033860054159,
+          "values": [
+            0.9984820374430764,
+            0.9984053726674742,
+            0.9978227203728974
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 1.0,
+          "population_std": 0.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "contact_margin": {
+          "mean": 0.9807010933204934,
+          "population_std": 0.014185730740813763,
+          "values": [
+            0.9944270098650897,
+            0.961167229546441,
+            0.9865090405499494
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.03240069402395773,
+          "population_std": 0.002392319595235281,
+          "values": [
+            0.030773076383898822,
+            0.035783147463615765,
+            0.030645858224358606
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 1.0,
+          "population_std": 0.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 1.0,
+          "population_std": 0.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    },
+    "action_ordered_4fps_off": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9449496977778459,
+          "population_std": 0.0032038661740857095,
+          "values": [
+            0.9471654108360243,
+            0.940419108506482,
+            0.9472645739910314
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8956616566085754,
+          "population_std": 0.00574422116526568,
+          "values": [
+            0.8996336372156428,
+            0.8875387580658678,
+            0.8998125745442154
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9111724716098979,
+          "population_std": 0.005877663223715215,
+          "values": [
+            0.9158942202835333,
+            0.9028871391076115,
+            0.9147360554385489
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8368915320436755,
+          "population_std": 0.009879228871581297,
+          "values": [
+            0.8448384257512889,
+            0.8229665071770335,
+            0.8428696632027044
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9837200226199294,
+          "population_std": 0.0008305534183160095,
+          "values": [
+            0.9844448161334257,
+            0.9825571670927815,
+            0.984158084633581
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982724870564303,
+          "population_std": 0.0002674369013519084,
+          "values": [
+            0.9985127033533173,
+            0.9984053726674742,
+            0.9978993851484996
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9789217725212191,
+          "population_std": 0.014227685928357239,
+          "values": [
+            -0.993955894752785,
+            -0.9598236083984375,
+            -0.9829858144124349
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8662765943261256,
+          "population_std": 0.007803675027168893,
+          "values": [
+            0.8722360314834658,
+            0.8552526326214507,
+            0.8713411188734599
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    },
+    "action_ordered_4fps_xhigh": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9449482226100706,
+          "population_std": 0.003270103407475063,
+          "values": [
+            0.9473589812572863,
+            0.9403250155403605,
+            0.9471606710325648
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8956597340496603,
+          "population_std": 0.005862730770485201,
+          "values": [
+            0.8999829613222013,
+            0.887371155618872,
+            0.8996250852079073
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9111598811125413,
+          "population_std": 0.005978110957037096,
+          "values": [
+            0.9162064498534124,
+            0.9027624309392265,
+            0.9145107625449854
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8368721319547164,
+          "population_std": 0.010048423682389802,
+          "values": [
+            0.8453699043784599,
+            0.8227593152064451,
+            0.8424871762792443
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9837160402379871,
+          "population_std": 0.000849900394659066,
+          "values": [
+            0.9844926047167332,
+            0.9825332728011278,
+            0.9841222431961004
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982622650863501,
+          "population_std": 0.0002700612769003306,
+          "values": [
+            0.9984973703981969,
+            0.9984053726674742,
+            0.9978840521933793
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9787409747088397,
+          "population_std": 0.014005711762436904,
+          "values": [
+            -0.9938897026909722,
+            -0.9601155033817997,
+            -0.9822177180537471
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8662659330021883,
+          "population_std": 0.007947664839366866,
+          "values": [
+            0.8726764328503307,
+            0.8550652354126586,
+            0.8710561307435758
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    },
+    "action_reversed_4fps_off": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9450842066064823,
+          "population_std": 0.003284580381788369,
+          "values": [
+            0.9474958525758866,
+            0.9404402627374401,
+            0.9473165045061203
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8959042599986088,
+          "population_std": 0.005890138935256113,
+          "values": [
+            0.9002300417483173,
+            0.8875764429923766,
+            0.8999062952551324
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9113001920355998,
+          "population_std": 0.006016923913595406,
+          "values": [
+            0.9162689213146052,
+            0.9028334485141672,
+            0.9147982062780269
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.837109595345571,
+          "population_std": 0.010115418444951507,
+          "values": [
+            0.8454762803573675,
+            0.8228772990677753,
+            0.8429752066115702
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9837518816754677,
+          "population_std": 0.0008573690051855028,
+          "values": [
+            0.9845284461542138,
+            0.9825571670927815,
+            0.9841700317794079
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982673760713903,
+          "population_std": 0.0002745698036576806,
+          "values": [
+            0.9985127033533173,
+            0.9984053726674742,
+            0.9978840521933793
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9793656902548707,
+          "population_std": 0.014131598824697634,
+          "values": [
+            -0.9940992284704138,
+            -0.9603051079644097,
+            -0.9836927343297888
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8665069276720899,
+          "population_std": 0.007997019610317058,
+          "values": [
+            0.8728531610528425,
+            0.8552268710300759,
+            0.8714407509333513
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    },
+    "action_shuffled_4fps_off": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9449533079203158,
+          "population_std": 0.0032323609488147235,
+          "values": [
+            0.9473023839397742,
+            0.9403826519287966,
+            0.9471748878923767
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8956684546182636,
+          "population_std": 0.005795245396642188,
+          "values": [
+            0.899880810488677,
+            0.8874738165060746,
+            0.8996507368600392
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9111331573864305,
+          "population_std": 0.005874397612609848,
+          "values": [
+            0.9159273918384059,
+            0.9028603012297913,
+            0.9146117790910944
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8368251486668807,
+          "population_std": 0.00987336867688416,
+          "values": [
+            0.844894875991439,
+            0.8229219143576826,
+            0.8426586556515209
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9837160402379871,
+          "population_std": 0.0008390832445504864,
+          "values": [
+            0.9844687104250794,
+            0.9825452199469547,
+            0.9841341903419273
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982622650863501,
+          "population_std": 0.0002700612769003306,
+          "values": [
+            0.9984973703981969,
+            0.9984053726674742,
+            0.9978840521933793
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9790975076180918,
+          "population_std": 0.014232977917445622,
+          "values": [
+            -0.9943897812454788,
+            -0.960116633662471,
+            -0.9827861079463253
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8662468016425722,
+          "population_std": 0.007828980623818616,
+          "values": [
+            0.872387843240058,
+            0.8551978654318786,
+            0.87115469625578
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    },
+    "action_single_frame_off": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9448944706022423,
+          "population_std": 0.0033051486170958093,
+          "values": [
+            0.947226830471237,
+            0.9402202877953455,
+            0.9472362935401444
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8955635493957232,
+          "population_std": 0.005924784188664486,
+          "values": [
+            0.8997444633730834,
+            0.8871846450423267,
+            0.8997615397717595
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9110531204838047,
+          "population_std": 0.005919407825223707,
+          "values": [
+            0.9159681046820691,
+            0.9027269589230238,
+            0.9144642978463211
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8366909553262539,
+          "population_std": 0.009947697657576917,
+          "values": [
+            0.8449641644662391,
+            0.8227003900843085,
+            0.8424083114282138
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9836921459463334,
+          "population_std": 0.0008482193083003178,
+          "values": [
+            0.9844567632792526,
+            0.9825093785094741,
+            0.9841102960502736
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982264881910691,
+          "population_std": 0.0002861238801019868,
+          "values": [
+            0.9984513715328355,
+            0.9984053726674742,
+            0.9978227203728974
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9779408537311318,
+          "population_std": 0.015794484510194606,
+          "values": [
+            -0.9939695287633825,
+            -0.9564539591471354,
+            -0.9833990732828776
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8661272523609885,
+          "population_std": 0.007925762047366117,
+          "values": [
+            0.8723543139196612,
+            0.8549425175633176,
+            0.8710849255999866
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    },
+    "contact_ordered_4fps_off": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9447923263339176,
+          "population_std": 0.0032301806559780176,
+          "values": [
+            0.9469764938094384,
+            0.9402255972999378,
+            0.9471748878923767
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8953792237950041,
+          "population_std": 0.005789600642058537,
+          "values": [
+            0.8992928346255431,
+            0.8871940998994301,
+            0.8996507368600392
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9110267241737681,
+          "population_std": 0.005886912476155529,
+          "values": [
+            0.9157414345071861,
+            0.9027269589230238,
+            0.9146117790910944
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8366458367890215,
+          "population_std": 0.009892017976636195,
+          "values": [
+            0.8445784646312351,
+            0.8227003900843085,
+            0.8426586556515209
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9836801988005065,
+          "population_std": 0.000834819727015932,
+          "values": [
+            0.9843970275501183,
+            0.9825093785094741,
+            0.9841341903419273
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982469321312296,
+          "population_std": 0.00025849662657405744,
+          "values": [
+            0.9984667044879559,
+            0.9983900397123537,
+            0.9978840521933793
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9783372290340471,
+          "population_std": 0.01479532708884522,
+          "values": [
+            -0.9938105830439815,
+            -0.9584028455946181,
+            -0.9827982584635416
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8660125302920129,
+          "population_std": 0.007830831208444633,
+          "values": [
+            0.8719356496283891,
+            0.8549472449918694,
+            0.87115469625578
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    },
+    "identity_ordered_4fps_off": {
+      "metrics": {
+        "a1_dice": {
+          "mean": 0.9450113427988259,
+          "population_std": 0.003280181180027105,
+          "values": [
+            0.9473684210526315,
+            0.9403726708074535,
+            0.947292936536393
+          ]
+        },
+        "a1_iou": {
+          "mean": 0.8957732659108792,
+          "population_std": 0.005881431598161614,
+          "values": [
+            0.9,
+            0.8874560375146542,
+            0.8998637602179836
+          ]
+        },
+        "a2_dice": {
+          "mean": 0.9113278961877119,
+          "population_std": 0.005964187088847982,
+          "values": [
+            0.91632597437994,
+            0.9029448361675654,
+            0.9147128780156303
+          ]
+        },
+        "a2_iou": {
+          "mean": 0.8371553764405709,
+          "population_std": 0.01002797979422533,
+          "values": [
+            0.8455734406438632,
+            0.823062381852552,
+            0.8428303068252975
+          ]
+        },
+        "accuracy": {
+          "mean": 0.9837518816754677,
+          "population_std": 0.0008590875701094451,
+          "values": [
+            0.9845403933000406,
+            0.9825571670927815,
+            0.984158084633581
+          ]
+        },
+        "background_stability": {
+          "mean": 0.9982213772060288,
+          "population_std": 0.0002728519360930284,
+          "values": [
+            0.9984513715328355,
+            0.9983747067572333,
+            0.9978380533280179
+          ]
+        },
+        "contact_accuracy": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "contact_margin": {
+          "mean": -0.9807660844590927,
+          "population_std": 0.0125931827079246,
+          "values": [
+            -0.9941246597855179,
+            -0.9638866141990379,
+            -0.9842869793927228
+          ]
+        },
+        "contact_pixel_count": {
+          "mean": 27.0,
+          "population_std": 0.0,
+          "values": [
+            27.0,
+            27.0,
+            27.0
+          ]
+        },
+        "contact_region_count": {
+          "mean": 3.0,
+          "population_std": 0.0,
+          "values": [
+            3.0,
+            3.0,
+            3.0
+          ]
+        },
+        "macro_actor_iou": {
+          "mean": 0.8664643211757251,
+          "population_std": 0.007944980267812535,
+          "values": [
+            0.8727867203219316,
+            0.8552592096836031,
+            0.8713470335216406
+          ]
+        },
+        "positive_contact_margin_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "positive_contact_region_fraction": {
+          "mean": 0.0,
+          "population_std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "run_count": 3,
+      "run_names": [
+        "final__action_relational__real__l11_merged__l25__seed-7",
+        "final__action_relational__real__l11_merged__l25__seed-71",
+        "final__action_relational__real__l11_merged__l25__seed-701"
+      ]
+    }
+  },
+  "format": "armbar-exploratory-campaign-result-v1",
+  "limitations": [
+    "single source video",
+    "legacy conservative pseudo-labels rather than fully human-reviewed masks",
+    "contact ownership truth exists only in the final held-out contact frame",
+    "global cached marker states cannot provide frame-varying temporal memory"
+  ],
+  "north_star_eligible": false,
+  "paired_seed_deltas": {
+    "action_minus_random_macro_iou": [
+      0.019455789695015935,
+      -0.01071271516911898,
+      0.020260829456721363
+    ],
+    "action_minus_static_macro_iou": [
+      0.005708250407954862,
+      -0.018386808283955114,
+      -0.012303371125438778
+    ]
+  },
+  "selected_action_language_layer": 25,
+  "selected_action_screen_run": "screen__action_relational__l11_merged__l25__seed-7",
+  "selected_static_arm": "l11_merged",
+  "selected_static_screen_run": "screen__static__l11_merged__seed-7",
+  "static_screen": {
+    "l05_l11_l18_l26": {
+      "a1_dice": 0.9173695496783417,
+      "a1_iou": 0.8473524362868085,
+      "a2_dice": 0.8456926475228779,
+      "a2_iou": 0.7326407873154729,
+      "accuracy": 0.9644347100542344,
+      "background_stability": 0.9853736089030206,
+      "contact_accuracy": 0.0,
+      "contact_margin": 0.0,
+      "contact_pixel_count": 0.0,
+      "contact_region_count": 0.0,
+      "macro_actor_iou": 0.7899966118011407,
+      "positive_contact_margin_fraction": 0.0,
+      "positive_contact_region_fraction": 0.0
+    },
+    "l11": {
+      "a1_dice": 0.8993630573248408,
+      "a1_iou": 0.8171296296296297,
+      "a2_dice": 0.8357878068091845,
+      "a2_iou": 0.7178998911860718,
+      "accuracy": 0.9562473925740509,
+      "background_stability": 0.9779544250132486,
+      "contact_accuracy": 0.0,
+      "contact_margin": 0.0,
+      "contact_pixel_count": 0.0,
+      "contact_region_count": 0.0,
+      "macro_actor_iou": 0.7675147604078507,
+      "positive_contact_margin_fraction": 0.0,
+      "positive_contact_region_fraction": 0.0
+    },
+    "l11_merged": {
+      "a1_dice": 0.9627639728378479,
+      "a1_iou": 0.9282014388489208,
+      "a2_dice": 0.8865269461077845,
+      "a2_iou": 0.7961817692928207,
+      "accuracy": 0.9790102211097205,
+      "background_stability": 0.993993993993994,
+      "contact_accuracy": 0.0,
+      "contact_margin": 0.0,
+      "contact_pixel_count": 0.0,
+      "contact_region_count": 0.0,
+      "macro_actor_iou": 0.8621916040708708,
+      "positive_contact_margin_fraction": 0.0,
+      "positive_contact_region_fraction": 0.0
+    },
+    "merged": {
+      "a1_dice": 0.9597245096571343,
+      "a1_iou": 0.9225676453655728,
+      "a2_dice": 0.8806302958228036,
+      "a2_iou": 0.7867197875166002,
+      "accuracy": 0.9779411764705882,
+      "background_stability": 0.9939586645468999,
+      "contact_accuracy": 0.0,
+      "contact_margin": 0.0,
+      "contact_pixel_count": 0.0,
+      "contact_region_count": 0.0,
+      "macro_actor_iou": 0.8546437164410865,
+      "positive_contact_margin_fraction": 0.0,
+      "positive_contact_region_fraction": 0.0
+    },
+    "p12": {
+      "a1_dice": 0.9126296958855098,
+      "a1_iou": 0.8392998157409844,
+      "a2_dice": 0.8352318305791754,
+      "a2_iou": 0.7170798898071625,
+      "accuracy": 0.9644086357947435,
+      "background_stability": 0.9894718247659424,
+      "contact_accuracy": 0.0,
+      "contact_margin": 0.0,
+      "contact_pixel_count": 0.0,
+      "contact_region_count": 0.0,
+      "macro_actor_iou": 0.7781898527740735,
+      "positive_contact_margin_fraction": 0.0,
+      "positive_contact_region_fraction": 0.0
+    },
+    "rgb": {
+      "a1_dice": 0.8650916317067785,
+      "a1_iou": 0.7622568093385214,
+      "a2_dice": 0.7436241610738255,
+      "a2_iou": 0.5918803418803419,
+      "accuracy": 0.9425584063412599,
+      "background_stability": 0.9814167108284755,
+      "contact_accuracy": 0.0,
+      "contact_margin": 0.0,
+      "contact_pixel_count": 0.0,
+      "contact_region_count": 0.0,
+      "macro_actor_iou": 0.6770685756094317,
+      "positive_contact_margin_fraction": 0.0,
+      "positive_contact_region_fraction": 0.0
+    }
+  },
+  "supervision_status": "exploratory_legacy_pseudo_labels"
+}

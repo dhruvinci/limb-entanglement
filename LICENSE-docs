@@ -1,0 +1,8 @@
+Documents, figures and result files in this repository (README.md, FINDINGS.md, experiments/**, docs/**) are
+licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Dhruva Chakravarthi
+
+Code (src/**) is under the MIT licence in LICENSE. Third-party data and models keep their own licences; the Harmony4D
+frame in docs/assets/h4d_tangle_example.jpg comes from the Harmony4D dataset (MIT, Khirodkar et al., NeurIPS 2024).

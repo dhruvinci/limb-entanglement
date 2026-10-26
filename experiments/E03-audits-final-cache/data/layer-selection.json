@@ -1,0 +1,118 @@
+{
+  "selection": "Only four frozen armbar validation frames; no test-score selection",
+  "screen": [
+    {
+      "layer": 0,
+      "validation_iou": 0.41889043554824856
+    },
+    {
+      "layer": 1,
+      "validation_iou": 0.4104450475940053
+    },
+    {
+      "layer": 2,
+      "validation_iou": 0.39347098603118
+    },
+    {
+      "layer": 3,
+      "validation_iou": 0.38456484925596623
+    },
+    {
+      "layer": 4,
+      "validation_iou": 0.3716055351224876
+    },
+    {
+      "layer": 5,
+      "validation_iou": 0.40248397975852596
+    },
+    {
+      "layer": 6,
+      "validation_iou": 0.4414581566366873
+    },
+    {
+      "layer": 7,
+      "validation_iou": 0.4585503126052238
+    },
+    {
+      "layer": 8,
+      "validation_iou": 0.47106320086888775
+    },
+    {
+      "layer": 9,
+      "validation_iou": 0.5123170626895079
+    },
+    {
+      "layer": 10,
+      "validation_iou": 0.5226447700452063
+    },
+    {
+      "layer": 11,
+      "validation_iou": 0.5188590931882562
+    },
+    {
+      "layer": 12,
+      "validation_iou": 0.5426825823787724
+    },
+    {
+      "layer": 13,
+      "validation_iou": 0.5544208387560143
+    },
+    {
+      "layer": 14,
+      "validation_iou": 0.580177475215716
+    },
+    {
+      "layer": 15,
+      "validation_iou": 0.5715837473473191
+    },
+    {
+      "layer": 16,
+      "validation_iou": 0.5779557716874117
+    },
+    {
+      "layer": 17,
+      "validation_iou": 0.5712081044625369
+    },
+    {
+      "layer": 18,
+      "validation_iou": 0.5676184670534545
+    },
+    {
+      "layer": 19,
+      "validation_iou": 0.5714582991413559
+    },
+    {
+      "layer": 20,
+      "validation_iou": 0.569958969502052
+    },
+    {
+      "layer": 21,
+      "validation_iou": 0.5740944255563694
+    },
+    {
+      "layer": 22,
+      "validation_iou": 0.5693910313244173
+    },
+    {
+      "layer": 23,
+      "validation_iou": 0.57054915708528
+    },
+    {
+      "layer": 24,
+      "validation_iou": 0.5653431301225624
+    },
+    {
+      "layer": 25,
+      "validation_iou": 0.548055822833915
+    },
+    {
+      "layer": 26,
+      "validation_iou": 0.4676835772141318
+    }
+  ],
+  "layers": [
+    14,
+    16,
+    21
+  ]
+}

@@ -1,0 +1,1409 @@
+{
+  "pair_diagnostics": {
+    "action_4fps_off": {
+      "actor_state_cosine": 0.9981280565261841,
+      "cosine_to_action": 1.0000003576278687,
+      "pair_norm": 94.73332214355469
+    },
+    "action_4fps_xhigh": {
+      "actor_state_cosine": 0.9981274008750916,
+      "cosine_to_action": 0.9982894062995911,
+      "pair_norm": 95.19883728027344
+    },
+    "action_reversed": {
+      "actor_state_cosine": 0.9980544447898865,
+      "cosine_to_action": 0.9983260035514832,
+      "pair_norm": 95.65950012207031
+    },
+    "action_shuffled": {
+      "actor_state_cosine": 0.9980686902999878,
+      "cosine_to_action": 0.9981340169906616,
+      "pair_norm": 95.12688446044922
+    },
+    "action_swapped": {
+      "actor_state_cosine": 0.9981280565261841,
+      "cosine_to_action": 0.9981132745742798,
+      "pair_norm": 94.73332977294922
+    },
+    "contact_4fps": {
+      "actor_state_cosine": 0.9980787038803101,
+      "cosine_to_action": 0.9971153736114502,
+      "pair_norm": 92.93994140625
+    },
+    "identity_4fps": {
+      "actor_state_cosine": 0.9988338947296143,
+      "cosine_to_action": 0.9858102798461914,
+      "pair_norm": 91.9678955078125
+    },
+    "random_matched": {
+      "actor_state_cosine": -0.009325794875621796,
+      "cosine_to_action": -0.0037737092934548855,
+      "pair_norm": 94.73335266113281
+    }
+  },
+  "policy": "decoder weights held fixed while only the two actor marker states are substituted",
+  "records": [
+    {
+      "evaluated_with": "identity_4fps",
+      "metrics": {
+        "A1_dice": 0.8671222475322703,
+        "A1_iou": 0.7654155495978552,
+        "A2_dice": 0.7381615598885793,
+        "A2_iou": 0.5849889624724062,
+        "accuracy": 0.9502887788778878,
+        "background_stability": 0.9817755792762302,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8283748030662537,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6752022560351307,
+      "seed": 7,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "contact_4fps",
+      "metrics": {
+        "A1_dice": 0.8662613981762918,
+        "A1_iou": 0.7640750670241286,
+        "A2_dice": 0.7368421052631579,
+        "A2_iou": 0.5833333333333334,
+        "accuracy": 0.9498762376237624,
+        "background_stability": 0.9812548815412653,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8331049084663391,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.673704200178731,
+      "seed": 7,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_4fps_off",
+      "metrics": {
+        "A1_dice": 0.8662613981762918,
+        "A1_iou": 0.7640750670241286,
+        "A2_dice": 0.7378640776699029,
+        "A2_iou": 0.5846153846153846,
+        "accuracy": 0.9500825082508251,
+        "background_stability": 0.9815152304087478,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8330180644989014,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6743452258197566,
+      "seed": 7,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_4fps_xhigh",
+      "metrics": {
+        "A1_dice": 0.8662613981762918,
+        "A1_iou": 0.7640750670241286,
+        "A2_dice": 0.7378640776699029,
+        "A2_iou": 0.5846153846153846,
+        "accuracy": 0.9500825082508251,
+        "background_stability": 0.9815152304087478,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8329464793205261,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6743452258197566,
+      "seed": 7,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_reversed",
+      "metrics": {
+        "A1_dice": 0.8662613981762918,
+        "A1_iou": 0.7640750670241286,
+        "A2_dice": 0.7378640776699029,
+        "A2_iou": 0.5846153846153846,
+        "accuracy": 0.9500825082508251,
+        "background_stability": 0.9815152304087478,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8317558169364929,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6743452258197566,
+      "seed": 7,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_shuffled",
+      "metrics": {
+        "A1_dice": 0.8662613981762918,
+        "A1_iou": 0.7640750670241286,
+        "A2_dice": 0.7378640776699029,
+        "A2_iou": 0.5846153846153846,
+        "accuracy": 0.9500825082508251,
+        "background_stability": 0.9815152304087478,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8321990966796875,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6743452258197566,
+      "seed": 7,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "random_matched",
+      "metrics": {
+        "A1_dice": 0.8484349258649094,
+        "A1_iou": 0.7367668097281831,
+        "A2_dice": 0.6917293233082706,
+        "A2_iou": 0.5287356321839081,
+        "accuracy": 0.942450495049505,
+        "background_stability": 0.9955740692527988,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.17219339311122894,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6327512209560455,
+      "seed": 7,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_swapped",
+      "metrics": {
+        "A1_dice": 0.05161290322580645,
+        "A1_iou": 0.026490066225165563,
+        "A2_dice": 0.17886178861788618,
+        "A2_iou": 0.09821428571428571,
+        "accuracy": 0.8030115511551155,
+        "background_stability": 0.9815152304087478,
+        "contact_actor_accuracy": 1.0,
+        "contact_actor_margin": 0.8330180644989014,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.062352175969725636,
+      "seed": 7,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "identity_4fps",
+      "metrics": {
+        "A1_dice": 0.8541353383458646,
+        "A1_iou": 0.7454068241469817,
+        "A2_dice": 0.7551867219917012,
+        "A2_iou": 0.6066666666666667,
+        "accuracy": 0.9507013201320133,
+        "background_stability": 0.9809945326737829,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.5732715129852295,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6760367454068241,
+      "seed": 71,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "contact_4fps",
+      "metrics": {
+        "A1_dice": 0.8556390977443609,
+        "A1_iou": 0.7477003942181341,
+        "A2_dice": 0.7569060773480663,
+        "A2_iou": 0.6088888888888889,
+        "accuracy": 0.9509075907590759,
+        "background_stability": 0.9807341838063004,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.55704265832901,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6782946415535115,
+      "seed": 71,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_4fps_off",
+      "metrics": {
+        "A1_dice": 0.8562829194883371,
+        "A1_iou": 0.7486842105263158,
+        "A2_dice": 0.7558620689655172,
+        "A2_iou": 0.6075388026607539,
+        "accuracy": 0.9509075907590759,
+        "background_stability": 0.9807341838063004,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.5585562586784363,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6781115065935348,
+      "seed": 71,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_4fps_xhigh",
+      "metrics": {
+        "A1_dice": 0.8562829194883371,
+        "A1_iou": 0.7486842105263158,
+        "A2_dice": 0.7558620689655172,
+        "A2_iou": 0.6075388026607539,
+        "accuracy": 0.9509075907590759,
+        "background_stability": 0.9807341838063004,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.5574498772621155,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6781115065935348,
+      "seed": 71,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_reversed",
+      "metrics": {
+        "A1_dice": 0.8562829194883371,
+        "A1_iou": 0.7486842105263158,
+        "A2_dice": 0.7558620689655172,
+        "A2_iou": 0.6075388026607539,
+        "accuracy": 0.9509075907590759,
+        "background_stability": 0.9807341838063004,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.5601215362548828,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6781115065935348,
+      "seed": 71,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_shuffled",
+      "metrics": {
+        "A1_dice": 0.8562829194883371,
+        "A1_iou": 0.7486842105263158,
+        "A2_dice": 0.7558620689655172,
+        "A2_iou": 0.6075388026607539,
+        "accuracy": 0.9509075907590759,
+        "background_stability": 0.9807341838063004,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.5595112442970276,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6781115065935348,
+      "seed": 71,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "random_matched",
+      "metrics": {
+        "A1_dice": 0.8694942903752039,
+        "A1_iou": 0.7691197691197691,
+        "A2_dice": 0.7317784256559767,
+        "A2_iou": 0.5770114942528736,
+        "accuracy": 0.9496699669966997,
+        "background_stability": 0.994532673782869,
+        "contact_actor_accuracy": 0.6666666865348816,
+        "contact_actor_margin": -0.05488761141896248,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6730656316863213,
+      "seed": 71,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_swapped",
+      "metrics": {
+        "A1_dice": 0.055674518201284794,
+        "A1_iou": 0.028634361233480177,
+        "A2_dice": 0.18571428571428572,
+        "A2_iou": 0.10236220472440945,
+        "accuracy": 0.8038366336633663,
+        "background_stability": 0.9807341838063004,
+        "contact_actor_accuracy": 1.0,
+        "contact_actor_margin": 0.5585562586784363,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.0654982829789448,
+      "seed": 71,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "identity_4fps",
+      "metrics": {
+        "A1_dice": 0.8603435399551904,
+        "A1_iou": 0.7549148099606815,
+        "A2_dice": 0.7355021216407355,
+        "A2_iou": 0.5816554809843401,
+        "accuracy": 0.9484323432343235,
+        "background_stability": 0.9794324394688884,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8732797503471375,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6682851454725107,
+      "seed": 701,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "contact_4fps",
+      "metrics": {
+        "A1_dice": 0.85949177877429,
+        "A1_iou": 0.7536041939711664,
+        "A2_dice": 0.7323943661971831,
+        "A2_iou": 0.5777777777777777,
+        "accuracy": 0.948019801980198,
+        "background_stability": 0.9791720906014059,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8612792491912842,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6656909858744721,
+      "seed": 701,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_4fps_off",
+      "metrics": {
+        "A1_dice": 0.85949177877429,
+        "A1_iou": 0.7536041939711664,
+        "A2_dice": 0.7323943661971831,
+        "A2_iou": 0.5777777777777777,
+        "accuracy": 0.948019801980198,
+        "background_stability": 0.9791720906014059,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8647108674049377,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6656909858744721,
+      "seed": 701,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_4fps_xhigh",
+      "metrics": {
+        "A1_dice": 0.85949177877429,
+        "A1_iou": 0.7536041939711664,
+        "A2_dice": 0.7323943661971831,
+        "A2_iou": 0.5777777777777777,
+        "accuracy": 0.948019801980198,
+        "background_stability": 0.9791720906014059,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8634131550788879,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6656909858744721,
+      "seed": 701,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_reversed",
+      "metrics": {
+        "A1_dice": 0.8588498879761016,
+        "A1_iou": 0.7526178010471204,
+        "A2_dice": 0.7323943661971831,
+        "A2_iou": 0.5777777777777777,
+        "accuracy": 0.9478135313531353,
+        "background_stability": 0.9789117417339235,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8647067546844482,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.665197789412449,
+      "seed": 701,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_shuffled",
+      "metrics": {
+        "A1_dice": 0.8588498879761016,
+        "A1_iou": 0.7526178010471204,
+        "A2_dice": 0.7323943661971831,
+        "A2_iou": 0.5777777777777777,
+        "accuracy": 0.9478135313531353,
+        "background_stability": 0.9789117417339235,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8647916913032532,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.665197789412449,
+      "seed": 701,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "random_matched",
+      "metrics": {
+        "A1_dice": 0.8763485477178423,
+        "A1_iou": 0.7799113737075333,
+        "A2_dice": 0.7394468704512372,
+        "A2_iou": 0.5866050808314087,
+        "accuracy": 0.9500825082508251,
+        "background_stability": 0.9955740692527988,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.09412214905023575,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6832582272694709,
+      "seed": 701,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_swapped",
+      "metrics": {
+        "A1_dice": 0.04570184983677911,
+        "A1_iou": 0.02338530066815145,
+        "A2_dice": 0.18600531443755536,
+        "A2_iou": 0.1025390625,
+        "accuracy": 0.8017739273927392,
+        "background_stability": 0.9791720906014059,
+        "contact_actor_accuracy": 1.0,
+        "contact_actor_margin": 0.8647109866142273,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.06296218158407572,
+      "seed": 701,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "identity_4fps",
+      "metrics": {
+        "A1_dice": 0.8680396643783371,
+        "A1_iou": 0.7668463611859838,
+        "A2_dice": 0.7418899858956276,
+        "A2_iou": 0.5896860986547086,
+        "accuracy": 0.9498762376237624,
+        "background_stability": 0.982296277011195,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.40700992941856384,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6782662299203461,
+      "seed": 7001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "contact_4fps",
+      "metrics": {
+        "A1_dice": 0.8698315467075038,
+        "A1_iou": 0.7696476964769647,
+        "A2_dice": 0.7426160337552743,
+        "A2_iou": 0.5906040268456376,
+        "accuracy": 0.9500825082508251,
+        "background_stability": 0.9825566258786774,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.3791927397251129,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6801258616613012,
+      "seed": 7001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_4fps_off",
+      "metrics": {
+        "A1_dice": 0.8700305810397554,
+        "A1_iou": 0.7699594046008119,
+        "A2_dice": 0.7436619718309859,
+        "A2_iou": 0.5919282511210763,
+        "accuracy": 0.9502887788778878,
+        "background_stability": 0.9825566258786774,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.3863712549209595,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6809438278609441,
+      "seed": 7001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_4fps_xhigh",
+      "metrics": {
+        "A1_dice": 0.8706962509563887,
+        "A1_iou": 0.7710027100271003,
+        "A2_dice": 0.7436619718309859,
+        "A2_iou": 0.5919282511210763,
+        "accuracy": 0.9502887788778878,
+        "background_stability": 0.9825566258786774,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.3834274709224701,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6814654805740883,
+      "seed": 7001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_reversed",
+      "metrics": {
+        "A1_dice": 0.8700305810397554,
+        "A1_iou": 0.7699594046008119,
+        "A2_dice": 0.7436619718309859,
+        "A2_iou": 0.5919282511210763,
+        "accuracy": 0.9502887788778878,
+        "background_stability": 0.9825566258786774,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.38589563965797424,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6809438278609441,
+      "seed": 7001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_shuffled",
+      "metrics": {
+        "A1_dice": 0.8700305810397554,
+        "A1_iou": 0.7699594046008119,
+        "A2_dice": 0.7436619718309859,
+        "A2_iou": 0.5919282511210763,
+        "accuracy": 0.9502887788778878,
+        "background_stability": 0.9825566258786774,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.3862440586090088,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6809438278609441,
+      "seed": 7001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "random_matched",
+      "metrics": {
+        "A1_dice": 0.8359511343804538,
+        "A1_iou": 0.7181409295352323,
+        "A2_dice": 0.6875,
+        "A2_iou": 0.5238095238095238,
+        "accuracy": 0.9364686468646864,
+        "background_stability": 0.9971361624576933,
+        "contact_actor_accuracy": 0.6666666865348816,
+        "contact_actor_margin": 0.12757493555545807,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.620975226672378,
+      "seed": 7001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_swapped",
+      "metrics": {
+        "A1_dice": 0.04352557127312296,
+        "A1_iou": 0.02224694104560623,
+        "A2_dice": 0.16560509554140126,
+        "A2_iou": 0.09027777777777778,
+        "accuracy": 0.8013613861386139,
+        "background_stability": 0.9825566258786774,
+        "contact_actor_accuracy": 0.6666666865348816,
+        "contact_actor_margin": 0.3863712549209595,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.056262359411692005,
+      "seed": 7001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "identity_4fps",
+      "metrics": {
+        "A1_dice": 0.8603773584905661,
+        "A1_iou": 0.7549668874172185,
+        "A2_dice": 0.7414500683994528,
+        "A2_iou": 0.5891304347826087,
+        "accuracy": 0.9492574257425742,
+        "background_stability": 0.9791720906014059,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8254898190498352,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6720486610999137,
+      "seed": 70001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "contact_4fps",
+      "metrics": {
+        "A1_dice": 0.8599397590361446,
+        "A1_iou": 0.7542932628797886,
+        "A2_dice": 0.7424657534246575,
+        "A2_iou": 0.5904139433551199,
+        "accuracy": 0.9490511551155115,
+        "background_stability": 0.978651392866441,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8282590508460999,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6723536031174542,
+      "seed": 70001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_4fps_off",
+      "metrics": {
+        "A1_dice": 0.8605877920120573,
+        "A1_iou": 0.7552910052910053,
+        "A2_dice": 0.7424657534246575,
+        "A2_iou": 0.5904139433551199,
+        "accuracy": 0.9492574257425742,
+        "background_stability": 0.9789117417339235,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8271802067756653,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6728524743230626,
+      "seed": 70001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_4fps_xhigh",
+      "metrics": {
+        "A1_dice": 0.8605877920120573,
+        "A1_iou": 0.7552910052910053,
+        "A2_dice": 0.7424657534246575,
+        "A2_iou": 0.5904139433551199,
+        "accuracy": 0.9492574257425742,
+        "background_stability": 0.9789117417339235,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8276235461235046,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6728524743230626,
+      "seed": 70001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_reversed",
+      "metrics": {
+        "A1_dice": 0.8605877920120573,
+        "A1_iou": 0.7552910052910053,
+        "A2_dice": 0.7424657534246575,
+        "A2_iou": 0.5904139433551199,
+        "accuracy": 0.9492574257425742,
+        "background_stability": 0.9789117417339235,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8275701403617859,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6728524743230626,
+      "seed": 70001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_shuffled",
+      "metrics": {
+        "A1_dice": 0.8605877920120573,
+        "A1_iou": 0.7552910052910053,
+        "A2_dice": 0.7424657534246575,
+        "A2_iou": 0.5904139433551199,
+        "accuracy": 0.9492574257425742,
+        "background_stability": 0.9789117417339235,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.8273715972900391,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6728524743230626,
+      "seed": 70001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "random_matched",
+      "metrics": {
+        "A1_dice": 0.8650355169692187,
+        "A1_iou": 0.7621696801112656,
+        "A2_dice": 0.7009063444108762,
+        "A2_iou": 0.5395348837209303,
+        "accuracy": 0.9482260726072608,
+        "background_stability": 0.9937516271804218,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.3113996088504791,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.650852281916098,
+      "seed": 70001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "action_swapped",
+      "metrics": {
+        "A1_dice": 0.05324813631522897,
+        "A1_iou": 0.02735229759299781,
+        "A2_dice": 0.18246869409660108,
+        "A2_iou": 0.10039370078740158,
+        "accuracy": 0.8017739273927392,
+        "background_stability": 0.9789117417339235,
+        "contact_actor_accuracy": 1.0,
+        "contact_actor_margin": 0.8271802067756653,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.06387299919019969,
+      "seed": 70001,
+      "trained_on": "identity_4fps"
+    },
+    {
+      "evaluated_with": "identity_4fps",
+      "metrics": {
+        "A1_dice": 0.8676358071920428,
+        "A1_iou": 0.7662162162162162,
+        "A2_dice": 0.7368421052631579,
+        "A2_iou": 0.5833333333333334,
+        "accuracy": 0.9504950495049505,
+        "background_stability": 0.9828169747461598,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.4143941104412079,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6747747747747748,
+      "seed": 7,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "contact_4fps",
+      "metrics": {
+        "A1_dice": 0.8676358071920428,
+        "A1_iou": 0.7662162162162162,
+        "A2_dice": 0.7361111111111112,
+        "A2_iou": 0.5824175824175825,
+        "accuracy": 0.9504950495049505,
+        "background_stability": 0.9830773236136423,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.42225781083106995,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6743168993168993,
+      "seed": 7,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_4fps_off",
+      "metrics": {
+        "A1_dice": 0.8676358071920428,
+        "A1_iou": 0.7662162162162162,
+        "A2_dice": 0.7361111111111112,
+        "A2_iou": 0.5824175824175825,
+        "accuracy": 0.9504950495049505,
+        "background_stability": 0.9830773236136423,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.4263421595096588,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6743168993168993,
+      "seed": 7,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_4fps_xhigh",
+      "metrics": {
+        "A1_dice": 0.8676358071920428,
+        "A1_iou": 0.7662162162162162,
+        "A2_dice": 0.7361111111111112,
+        "A2_iou": 0.5824175824175825,
+        "accuracy": 0.9504950495049505,
+        "background_stability": 0.9830773236136423,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.42407262325286865,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6743168993168993,
+      "seed": 7,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_reversed",
+      "metrics": {
+        "A1_dice": 0.8676358071920428,
+        "A1_iou": 0.7662162162162162,
+        "A2_dice": 0.7361111111111112,
+        "A2_iou": 0.5824175824175825,
+        "accuracy": 0.9504950495049505,
+        "background_stability": 0.9830773236136423,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.42431917786598206,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6743168993168993,
+      "seed": 7,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_shuffled",
+      "metrics": {
+        "A1_dice": 0.8676358071920428,
+        "A1_iou": 0.7662162162162162,
+        "A2_dice": 0.7361111111111112,
+        "A2_iou": 0.5824175824175825,
+        "accuracy": 0.9504950495049505,
+        "background_stability": 0.9830773236136423,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.42495250701904297,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6743168993168993,
+      "seed": 7,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "random_matched",
+      "metrics": {
+        "A1_dice": 0.8734622144112478,
+        "A1_iou": 0.7753510140405616,
+        "A2_dice": 0.7712765957446809,
+        "A2_iou": 0.6277056277056277,
+        "accuracy": 0.9513201320132013,
+        "background_stability": 0.9958344181202812,
+        "contact_actor_accuracy": 0.6666666865348816,
+        "contact_actor_margin": 0.12690377235412598,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.7015283208730947,
+      "seed": 7,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_swapped",
+      "metrics": {
+        "A1_dice": 0.0581270182992465,
+        "A1_iou": 0.02993348115299335,
+        "A2_dice": 0.17486338797814208,
+        "A2_iou": 0.09580838323353294,
+        "accuracy": 0.8042491749174917,
+        "background_stability": 0.9830773236136423,
+        "contact_actor_accuracy": 0.6666666865348816,
+        "contact_actor_margin": 0.4263421595096588,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.06287093219326315,
+      "seed": 7,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "identity_4fps",
+      "metrics": {
+        "A1_dice": 0.8558692421991084,
+        "A1_iou": 0.7480519480519481,
+        "A2_dice": 0.7164591977869986,
+        "A2_iou": 0.5581896551724138,
+        "accuracy": 0.9457508250825083,
+        "background_stability": 0.9763082530590992,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9132275581359863,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.653120801612181,
+      "seed": 71,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "contact_4fps",
+      "metrics": {
+        "A1_dice": 0.8552338530066815,
+        "A1_iou": 0.7470817120622568,
+        "A2_dice": 0.7174515235457064,
+        "A2_iou": 0.5593952483801296,
+        "accuracy": 0.9457508250825083,
+        "background_stability": 0.9763082530590992,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9112240672111511,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6532384802211932,
+      "seed": 71,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_4fps_off",
+      "metrics": {
+        "A1_dice": 0.8565055762081785,
+        "A1_iou": 0.7490247074122237,
+        "A2_dice": 0.7174515235457064,
+        "A2_iou": 0.5593952483801296,
+        "accuracy": 0.945957095709571,
+        "background_stability": 0.9765686019265816,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9101888537406921,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6542099778961766,
+      "seed": 71,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_4fps_xhigh",
+      "metrics": {
+        "A1_dice": 0.8558692421991084,
+        "A1_iou": 0.7480519480519481,
+        "A2_dice": 0.7156726768377254,
+        "A2_iou": 0.5572354211663066,
+        "accuracy": 0.9457508250825083,
+        "background_stability": 0.9765686019265816,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9106641411781311,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6526436846091274,
+      "seed": 71,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_reversed",
+      "metrics": {
+        "A1_dice": 0.8558692421991084,
+        "A1_iou": 0.7480519480519481,
+        "A2_dice": 0.7156726768377254,
+        "A2_iou": 0.5572354211663066,
+        "accuracy": 0.9457508250825083,
+        "background_stability": 0.9765686019265816,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9109252095222473,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6526436846091274,
+      "seed": 71,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_shuffled",
+      "metrics": {
+        "A1_dice": 0.8558692421991084,
+        "A1_iou": 0.7480519480519481,
+        "A2_dice": 0.7156726768377254,
+        "A2_iou": 0.5572354211663066,
+        "accuracy": 0.9457508250825083,
+        "background_stability": 0.9765686019265816,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9106187224388123,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6526436846091274,
+      "seed": 71,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "random_matched",
+      "metrics": {
+        "A1_dice": 0.8600469116497264,
+        "A1_iou": 0.7544581618655692,
+        "A2_dice": 0.7046153846153846,
+        "A2_iou": 0.5439429928741093,
+        "accuracy": 0.9484323432343235,
+        "background_stability": 0.9942723249153866,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.42761901021003723,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6492005773698393,
+      "seed": 71,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_swapped",
+      "metrics": {
+        "A1_dice": 0.04296455424274973,
+        "A1_iou": 0.021953896816684963,
+        "A2_dice": 0.20246478873239437,
+        "A2_iou": 0.11263467189030363,
+        "accuracy": 0.8015676567656765,
+        "background_stability": 0.9765686019265816,
+        "contact_actor_accuracy": 1.0,
+        "contact_actor_margin": 0.9101888537406921,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.0672942843534943,
+      "seed": 71,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "identity_4fps",
+      "metrics": {
+        "A1_dice": 0.8722264728385616,
+        "A1_iou": 0.7734056987788331,
+        "A2_dice": 0.7461430575035063,
+        "A2_iou": 0.5950782997762863,
+        "accuracy": 0.9535891089108911,
+        "background_stability": 0.985941161155949,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.6152574419975281,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6842419992775597,
+      "seed": 701,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "contact_4fps",
+      "metrics": {
+        "A1_dice": 0.8713629402756509,
+        "A1_iou": 0.7720488466757124,
+        "A2_dice": 0.7468531468531469,
+        "A2_iou": 0.5959821428571429,
+        "accuracy": 0.9533828382838284,
+        "background_stability": 0.9856808122884665,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.6165241599082947,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6840154947664276,
+      "seed": 701,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_4fps_off",
+      "metrics": {
+        "A1_dice": 0.8715596330275229,
+        "A1_iou": 0.7723577235772358,
+        "A2_dice": 0.7478991596638656,
+        "A2_iou": 0.5973154362416108,
+        "accuracy": 0.9533828382838284,
+        "background_stability": 0.9854204634209841,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.6174336671829224,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6848365799094233,
+      "seed": 701,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_4fps_xhigh",
+      "metrics": {
+        "A1_dice": 0.8706962509563887,
+        "A1_iou": 0.7710027100271003,
+        "A2_dice": 0.7468531468531469,
+        "A2_iou": 0.5959821428571429,
+        "accuracy": 0.9531765676567657,
+        "background_stability": 0.9854204634209841,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.6170580983161926,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6834924264421216,
+      "seed": 701,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_reversed",
+      "metrics": {
+        "A1_dice": 0.8706962509563887,
+        "A1_iou": 0.7710027100271003,
+        "A2_dice": 0.7468531468531469,
+        "A2_iou": 0.5959821428571429,
+        "accuracy": 0.9531765676567657,
+        "background_stability": 0.9854204634209841,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.6172578930854797,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6834924264421216,
+      "seed": 701,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_shuffled",
+      "metrics": {
+        "A1_dice": 0.8706962509563887,
+        "A1_iou": 0.7710027100271003,
+        "A2_dice": 0.7468531468531469,
+        "A2_iou": 0.5959821428571429,
+        "accuracy": 0.9531765676567657,
+        "background_stability": 0.9854204634209841,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.6173064112663269,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6834924264421216,
+      "seed": 701,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "random_matched",
+      "metrics": {
+        "A1_dice": 0.8641571194762684,
+        "A1_iou": 0.760806916426513,
+        "A2_dice": 0.7005988023952096,
+        "A2_iou": 0.5391705069124424,
+        "accuracy": 0.946575907590759,
+        "background_stability": 0.996355115855246,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.1581684648990631,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6499887116694777,
+      "seed": 701,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_swapped",
+      "metrics": {
+        "A1_dice": 0.05200433369447454,
+        "A1_iou": 0.026696329254727477,
+        "A2_dice": 0.17834394904458598,
+        "A2_iou": 0.0979020979020979,
+        "accuracy": 0.8058993399339934,
+        "background_stability": 0.9854204634209841,
+        "contact_actor_accuracy": 0.6666666865348816,
+        "contact_actor_margin": 0.6174336671829224,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.06229921357841269,
+      "seed": 701,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "identity_4fps",
+      "metrics": {
+        "A1_dice": 0.8497023809523809,
+        "A1_iou": 0.7386804657179818,
+        "A2_dice": 0.7112375533428165,
+        "A2_iou": 0.5518763796909493,
+        "accuracy": 0.946575907590759,
+        "background_stability": 0.9809945326737829,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9608649611473083,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6452784227044656,
+      "seed": 7001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "contact_4fps",
+      "metrics": {
+        "A1_dice": 0.8503350707371556,
+        "A1_iou": 0.7396373056994818,
+        "A2_dice": 0.7083926031294452,
+        "A2_iou": 0.5484581497797357,
+        "accuracy": 0.9461633663366337,
+        "background_stability": 0.9807341838063004,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9622253775596619,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6440477277396088,
+      "seed": 7001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_4fps_off",
+      "metrics": {
+        "A1_dice": 0.8509687034277198,
+        "A1_iou": 0.7405966277561609,
+        "A2_dice": 0.7094017094017094,
+        "A2_iou": 0.5496688741721855,
+        "accuracy": 0.9463696369636964,
+        "background_stability": 0.9809945326737829,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9628947377204895,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6451327509641731,
+      "seed": 7001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_4fps_xhigh",
+      "metrics": {
+        "A1_dice": 0.8509687034277198,
+        "A1_iou": 0.7405966277561609,
+        "A2_dice": 0.7112375533428165,
+        "A2_iou": 0.5518763796909493,
+        "accuracy": 0.9463696369636964,
+        "background_stability": 0.9807341838063004,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9625406265258789,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6462365037235551,
+      "seed": 7001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_reversed",
+      "metrics": {
+        "A1_dice": 0.8503350707371556,
+        "A1_iou": 0.7396373056994818,
+        "A2_dice": 0.7094017094017094,
+        "A2_iou": 0.5496688741721855,
+        "accuracy": 0.9461633663366337,
+        "background_stability": 0.9807341838063004,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9626057744026184,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6446530899358336,
+      "seed": 7001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_shuffled",
+      "metrics": {
+        "A1_dice": 0.8503350707371556,
+        "A1_iou": 0.7396373056994818,
+        "A2_dice": 0.7094017094017094,
+        "A2_iou": 0.5496688741721855,
+        "accuracy": 0.9461633663366337,
+        "background_stability": 0.9807341838063004,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.9626808166503906,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6446530899358336,
+      "seed": 7001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "random_matched",
+      "metrics": {
+        "A1_dice": 0.8688783570300158,
+        "A1_iou": 0.7681564245810056,
+        "A2_dice": 0.7004470938897168,
+        "A2_iou": 0.5389908256880734,
+        "accuracy": 0.9488448844884488,
+        "background_stability": 0.9932309294454569,
+        "contact_actor_accuracy": 0.0,
+        "contact_actor_margin": -0.3504994213581085,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6535736251345395,
+      "seed": 7001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_swapped",
+      "metrics": {
+        "A1_dice": 0.048298572996706916,
+        "A1_iou": 0.024746906636670417,
+        "A2_dice": 0.21535745807590467,
+        "A2_iou": 0.12067260138476756,
+        "accuracy": 0.806930693069307,
+        "background_stability": 0.9809945326737829,
+        "contact_actor_accuracy": 1.0,
+        "contact_actor_margin": 0.9628947377204895,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.07270975401071898,
+      "seed": 7001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "identity_4fps",
+      "metrics": {
+        "A1_dice": 0.8565022421524664,
+        "A1_iou": 0.7490196078431373,
+        "A2_dice": 0.7426981919332406,
+        "A2_iou": 0.5907079646017699,
+        "accuracy": 0.9486386138613861,
+        "background_stability": 0.978651392866441,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.4702969789505005,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6698637862224536,
+      "seed": 70001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "contact_4fps",
+      "metrics": {
+        "A1_dice": 0.8556469708302169,
+        "A1_iou": 0.7477124183006536,
+        "A2_dice": 0.7416666666666667,
+        "A2_iou": 0.5894039735099338,
+        "accuracy": 0.9484323432343235,
+        "background_stability": 0.978651392866441,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.4721900224685669,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6685581959052938,
+      "seed": 70001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_4fps_off",
+      "metrics": {
+        "A1_dice": 0.8577844311377245,
+        "A1_iou": 0.7509829619921363,
+        "A2_dice": 0.7426981919332406,
+        "A2_iou": 0.5907079646017699,
+        "accuracy": 0.9490511551155115,
+        "background_stability": 0.9791720906014059,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.4735794961452484,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6708454632969532,
+      "seed": 70001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_4fps_xhigh",
+      "metrics": {
+        "A1_dice": 0.8562874251497006,
+        "A1_iou": 0.7486910994764397,
+        "A2_dice": 0.7416666666666667,
+        "A2_iou": 0.5894039735099338,
+        "accuracy": 0.9486386138613861,
+        "background_stability": 0.9789117417339235,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.47276028990745544,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6690475364931867,
+      "seed": 70001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_reversed",
+      "metrics": {
+        "A1_dice": 0.8571428571428571,
+        "A1_iou": 0.75,
+        "A2_dice": 0.7426981919332406,
+        "A2_iou": 0.5907079646017699,
+        "accuracy": 0.9488448844884488,
+        "background_stability": 0.9789117417339235,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.47300800681114197,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6703539823008849,
+      "seed": 70001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_shuffled",
+      "metrics": {
+        "A1_dice": 0.8571428571428571,
+        "A1_iou": 0.75,
+        "A2_dice": 0.7426981919332406,
+        "A2_iou": 0.5907079646017699,
+        "accuracy": 0.9488448844884488,
+        "background_stability": 0.9789117417339235,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.4730674922466278,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6703539823008849,
+      "seed": 70001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "random_matched",
+      "metrics": {
+        "A1_dice": 0.866877971473851,
+        "A1_iou": 0.765034965034965,
+        "A2_dice": 0.7224669603524229,
+        "A2_iou": 0.5655172413793104,
+        "accuracy": 0.9507013201320133,
+        "background_stability": 0.9934912783129394,
+        "contact_actor_accuracy": 0.3333333432674408,
+        "contact_actor_margin": -0.1622062772512436,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.6652761032071377,
+      "seed": 70001,
+      "trained_on": "action_4fps_off"
+    },
+    {
+      "evaluated_with": "action_swapped",
+      "metrics": {
+        "A1_dice": 0.040948275862068964,
+        "A1_iou": 0.020902090209020903,
+        "A2_dice": 0.19343389529724933,
+        "A2_iou": 0.10707269155206287,
+        "accuracy": 0.8021864686468647,
+        "background_stability": 0.9791720906014059,
+        "contact_actor_accuracy": 0.6666666865348816,
+        "contact_actor_margin": 0.4735794961452484,
+        "contact_patch_count": 3.0
+      },
+      "score": 0.06398739088054188,
+      "seed": 70001,
+      "trained_on": "action_4fps_off"
+    }
+  ],
+  "selected_language_layer": 25,
+  "selected_vision_layer": 12
+}
