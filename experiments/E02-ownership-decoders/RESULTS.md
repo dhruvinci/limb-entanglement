@@ -39,7 +39,7 @@ gate, is not eligible for the multi-clip north star, and does not justify LoRA t
 - Supervision status: `exploratory_legacy_pseudo_labels`
 - Training frames: 20 for screening, 24 for final refits
 - Validation frames: 4, used only for architecture/layer selection
-- Test frames: 8, including the sole manually corrected trapped-arm contact frame
+- Test frames: 8, including the sole trapped-arm contact frame, whose contact points are fixed in the analysis code (no saved review record)
 - Test contact truth: 27 grid cells in three connected regions on frame 143
 - Seeds: 7, 71, 701
 

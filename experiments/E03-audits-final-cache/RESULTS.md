@@ -105,7 +105,7 @@ development folds only; every package ran whether or not anything passed.
   checksum, after which the bulk feature caches were retired (the cached Qwen layers can no longer be replayed).
 - **Cost:** about $3.4 in total for compute and storage (difference of the account balance recorded before
   authorisation and before deletion), inside the $20 authorised.
-- **Labels:** the armbar clip's conservative pseudo-labels plus one manually checked trapped-arm contact frame;
+- **Labels:** the armbar clip's conservative pseudo-labels plus one trapped-arm contact frame whose three contact points are fixed in the analysis code (`probe_analysis.py`); no saved record shows a person placing or checking them;
   four short clips of private product footage with sparse AI-reviewed labels, each held out whole in turn
   ("held-out clips"); their numbers are withheld here. Unknown pixels are ignored, so IoUs are over labelled cells only.
 

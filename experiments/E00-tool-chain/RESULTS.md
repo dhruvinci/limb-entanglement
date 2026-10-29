@@ -79,7 +79,7 @@ The armbar clip is a useful hard case because a competent viewer can recognize t
 - the 5.95-second output obeyed its sparse prompts but did not resolve ownership of the intertwined limbs;
 - SAM3.1 was not uniformly better than SAM3.
 
-Human review agreed that the improved third frame was close to correct, the fourth remained anomalous, and the fifth attributed the trapped arm to the wrong athlete.
+A human review, done in conversation and not saved as a record, agreed that the improved third frame was close to correct, the fourth remained anomalous, and the fifth attributed the trapped arm to the wrong athlete.
 
 **Decision:** Semantic identity and boxes work; the semantic-to-dense-mask bridge is the bottleneck. Test signed limb prompts and time before adding model combinations.
 
